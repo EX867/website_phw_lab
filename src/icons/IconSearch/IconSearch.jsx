@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Icon_Search = ({color = "#1E1E1E", className}) => {
+const IconSearch = ({color = "#1E1E1E", className}) => {
   return (
     <svg
       className={`size-16 ${className}`}
@@ -21,3 +21,5 @@ export const Icon_Search = ({color = "#1E1E1E", className}) => {
     </svg>
   );
 };
+
+export default IconSearch;

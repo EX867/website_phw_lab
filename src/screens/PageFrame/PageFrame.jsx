@@ -1,8 +1,8 @@
 import React from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 
-import {HeaderNavButton} from "../../components/HeaderNavButton";
-import {SearchInput} from "../../components/SearchInput";
+// import {HeaderNavButton} from "../../components/HeaderNavButton";
+// import {SearchInput} from "../../components/SearchInput";
 
 import PageHome from "../PageHome/PageHome";
 import PagePublications from "../PagePublications/PagePublications";
@@ -21,7 +21,7 @@ const Module = () => {
                       <img className="logo"
                           width={192}
                           alt="The TCR Lab logo"
-                          src="assets/images/logo.png"/>
+                          src="./assets/images/logo.png"/>
 
                       {/*<div className="header-nav-bar">
                           <HeaderNavButton label="Home" src="/"/>

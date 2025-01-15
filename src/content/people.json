@@ -1,55 +1,55 @@
 {
     "members": [
         {
-            "src": "assets/images/members/So Yeon Park.jpg",
+            "src": "./assets/images/members/So Yeon Park.jpg",
             "name": "So Yeon Park",
             "caption": "Ph. D. Student",
             "email": "psy06057@naver.com"
         },
         {
-            "src": "assets/images/members/Dong Hyeon Kim.jpg",
+            "src": "./assets/images/members/Dong Hyeon Kim.jpg",
             "name": "Dong Hyeon Kim",
             "caption": "Ph. D. Student",
             "email": "dhk1107@yonsei.ac.kr"
         },
         {
-            "src": "assets/images/members/Seok Chan Cho.jpg",
+            "src": "./assets/images/members/Seok Chan Cho.jpg",
             "name": "Seok Chan Cho",
             "caption": "Ph. D. Student",
             "email": "sc0330@yonsei.ac.kr"
         },
         {
-            "src": "assets/images/members/Ji Eun Paik.jpg",
+            "src": "./assets/images/members/Ji Eun Paik.jpg",
             "name": "Ji Eun Paik",
             "caption": "Ph. D. Student",
             "email": "paik_jieun@yonsei.ac.kr"
         },
         {
-            "src": "assets/images/members/Woo Yang Pyun.jpg",
+            "src": "./assets/images/members/Woo Yang Pyun.jpg",
             "name": "Woo Yang Pyun",
             "caption": "Ph. D. Student",
             "email": "kpwy910@yonsei.ac.kr"
         },
         {
-            "src": "assets/images/members/Han Nah Lee.jpg",
+            "src": "./assets/images/members/Han Nah Lee.jpg",
             "name": "Han Nah Lee",
             "caption": "Ph. D. Student",
             "email": "hnlee@yonsei.ac.kr"
         },
         {
-            "src": "assets/images/members/Byun Jong Hwa.jpg",
+            "src": "./assets/images/members/Byun Jong Hwa.jpg",
             "name": "Byun Jong Hwa",
             "caption": "Ph. D. Student",
             "email": "buynbagsa@yonsei.ac.kr"
         },
         {
-            "src": "assets/images/members/Jeong Been Lee.jpg",
+            "src": "./assets/images/members/Jeong Been Lee.jpg",
             "name": "Jeong Been Lee",
             "caption": "Ph. D. Student",
             "email": "ljb720@yonsei.ac.kr"
         },
         {
-            "src": "assets/images/members/Jang Yi Kim.jpg",
+            "src": "./assets/images/members/Jang Yi Kim.jpg",
             "name": "Jang Yi Kim",
             "caption": "Research Administrator",
             "email": "wkddl0416@yonsei.ac.kr"
@@ -57,31 +57,31 @@
     ],
     "alumni": [
         {
-            "src": "assets/images/alumni/Jae Hyung Park.jpg",
+            "src": "./assets/images/alumni/Jae Hyung Park.jpg",
             "name": "Jae Hyung Park",
             "caption": "Ph. D.",
             "email": "jaehyung_park@tmax.co.kr"
         },
         {
-            "src": "assets/images/alumni/Hyun Bin Huh.jpg",
+            "src": "./assets/images/alumni/Hyun Bin Huh.jpg",
             "name": "Hyun Bin Huh",
             "caption": "Ph. D.",
             "email": "huhhb621@yonsei.ac.kr"
         },
         {
-            "src": "assets/images/alumni/Ji Eun Shin.jpg",
+            "src": "./assets/images/alumni/Ji Eun Shin.jpg",
             "name": "Ji Eun Shin",
             "caption": "Ph. D.",
             "email": "sjer@yonsei.ac.kr"
         },
         {
-            "src": "assets/images/alumni/Ye Eun Kim.jpg",
+            "src": "./assets/images/alumni/Ye Eun Kim.jpg",
             "name": "Ye Eun Kim",
             "caption": "Master",
             "email": "yeeun3189@naver.com"
         },
         {
-            "src": "assets/images/alumni/Ju Young Lee.jpg",
+            "src": "./assets/images/alumni/Ju Young Lee.jpg",
             "name": "Ju Young Lee",
             "caption": "Master",
             "email": "bboojy@yonsei.ac.kr"

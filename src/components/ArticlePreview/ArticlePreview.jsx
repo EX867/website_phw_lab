@@ -9,7 +9,7 @@ const ArticlePreview = ({article}) => {
             alt="preview of article"
             src={article.preview_image}/>
         <div>
-            <a href={article.src} target="_blank">{article.title} </a>
+            <a href={article.src} target="_blank" rel="noreferrer">{article.title} </a>
             <div className="text-time">{article.date}</div>
             <p>{article.preview_content}</p>
         </div>

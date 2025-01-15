@@ -118,7 +118,7 @@ const PageHome = () => {
                       <img className="logo"
                           width={192}
                           alt="The TCR Lab logo"
-                          src="assets/images/logo.png"/>
+                          src="./assets/images/logo.png"/>
                 </div>
             </div>
             <div className="content-horizontal-flex">
@@ -157,7 +157,7 @@ const PageHome = () => {
                             <div className="professor-small">
                                 <img
                                     alt="professor Hyun Woo Park"
-                                    src="assets/images/professor/Hyun Woo Park.jpg"/>
+                                    src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
                                 <p className="professor-name-small">
                                     Hyun Woo Park
@@ -175,7 +175,7 @@ const PageHome = () => {
                         <div className="professor">
                             <img
                                 alt="professor Hyun Woo Park"
-                                src="assets/images/professor/Hyun Woo Park.jpg"/>
+                                src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
                             <div>
                                 <p className="professor-name">Hyun Woo (Henry) Park, Professor</p>

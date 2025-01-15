@@ -1,11 +1,6 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
 import React from "react";
 
-export const Icon_X = ({ color = "#1E1E1E", className }) => {
+const IconX = ({ color = "#1E1E1E", className }) => {
   return (
     <svg
       className={`size-16-1 ${className}`}
@@ -26,3 +21,4 @@ export const Icon_X = ({ color = "#1E1E1E", className }) => {
     </svg>
   );
 };
+export default IconX;
