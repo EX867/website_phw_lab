@@ -1,0 +1,34 @@
+.following-nav-button {
+  align-items: center;
+  display: inline-flex;
+
+  padding-left: 2rem;
+  position: relative;
+}
+
+.following-nav-button .label {
+  color: var(--color-yonsei);
+  font-weight: 400;
+}
+
+.following-nav-button .label:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.following-nav-button[highlight=true] {
+  border-left: 10px solid var(--color-link);
+  padding-left: calc(2rem - 10px);
+}
+
+.following-nav-button[highlight=true] .label {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.following-nav-button .label:focus-within {
+  text-decoration: none;
+
+  outline: 2px auto black;
+  box-shadow: 0 0 3px 1px #fff, inset 0 0 3px 1px #fff;
+}

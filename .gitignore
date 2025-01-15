@@ -1,15 +1,22 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+
+.vscode/
+.idea/
+*.min.js
+
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+lib/
 
 # testing
 /coverage
 
 # production
 /build
+dist/
 
 # misc
 .DS_Store
@@ -18,6 +25,19 @@
 .env.test.local
 .env.production.local
 
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+logs/
+*.log
+tmp
+parcel-bundle-reports/
+.verdaccio_storage/
+sourcemap-info.json
+
+
+.nyc_output/
+.cache/
+.parcel-cache/

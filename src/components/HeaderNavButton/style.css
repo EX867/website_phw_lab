@@ -1,0 +1,14 @@
+.header-nav-button {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.header-nav-button .label {
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--color-yonsei);
+}
+
+.header-nav-button:hover {
+  text-decoration: underline;
+}

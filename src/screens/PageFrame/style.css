@@ -1,0 +1,327 @@
+.root-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  background-color: var(--color-background-default);
+  width: 100%;
+
+  color: var(--color-text-default-default);
+  font-family: "Red Hat Text", "Noto Sans KR";
+  font-optical-sizing: auto;
+  font-size: 16;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.root-container .body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.root-container .body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  max-width: 75rem;
+  padding-top: 4rem;
+}
+
+.root-container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+
+  height: 5rem;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+  
+  border-bottom: 3px solid var(--color-yonsei);
+}
+
+.root-container .header-nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 0.5rem;
+
+  margin-top: 0.5rem;
+}
+
+.root-container .header-search {
+  padding-left: 12.5rem;
+}
+
+.root-container .top-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  border-bottom: 3px solid var(--color-yonsei);
+}
+
+.root-container .main-image {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.root-container .carousel-instance {
+  align-items: center !important;
+  align-self: stretch !important;
+  background-image: url(https://c.animaapp.com/uGXPNsNv/img/carousel.png) !important;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  justify-content: center !important;
+  padding: unset !important;
+  width: 100% !important;
+}
+
+.root-container .main-text-frame {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--color-yonsei);
+  padding: 1rem 6rem 1rem 2rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.root-container .main-text-detail {
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-top: 0.5rem;
+}
+
+.root-container .main-text {
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.root-container #home-left-nav-tab-wrapper {
+  width: 22%;
+  flex-shrink: 0;
+  overflow: visible;
+}
+
+@supports (position: sticky) or (position: -webkit-sticky) {
+  .root-container #home-left-nav-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    position: sticky;
+    top: 3rem;
+    padding: 2rem 0;
+  }
+}
+
+.root-container #other-left-nav-tab-wrapper {
+  width: 22%;
+  flex-shrink: 0;
+  overflow: visible;
+  margin-top: 0.5rem;
+
+  border-top: 5px solid var(--color-yonsei);
+  border-radius: 3px 3px 0 0;
+}
+
+.root-container #other-left-nav-tab {
+  display: flex;
+  flex-direction: column;
+
+  position: sticky;
+  top: 3rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.root-container .left-nav-tab-home {
+  color: var(--color-link);
+  font-size: 1.5em;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+
+  padding: 1rem 0;
+  
+  border-bottom: 1px solid #b5b2ad;
+}
+
+.root-container .title-wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.root-container .description-label {
+  color: var(--color-primitives-gray-600);
+  font-size: 1em;
+  margin: 0.15rem 0;
+}
+
+.root-container .back-button-wrapper {
+  padding: 4rem 0 1.5rem 0;
+}
+
+.root-container .back-button {
+  color: var(--color-link);
+  font-weight: 400;
+  margin-bottom: 0.2em;
+}
+
+.root-container .back-button::before {
+  display: inline-block;
+  
+  content: " ";
+  background-color: var(--color-link);
+  -webkit-mask-image: url("../../icons/back.svg");
+  mask-image: url("../../icons/back.svg");
+  background-size: contain;
+  background-position: bottom;
+  
+  width: 1.5em;
+  height: 1.5em;
+  padding-right: 0.2rem;
+  vertical-align: bottom;
+}
+
+.root-container .back-button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.root-container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 3rem;
+
+  padding: 4px 0px;
+}
+
+.root-container .content-horizontal-flex {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.root-container .professor-small {
+  align-self: flex-start;
+
+  padding: 2rem 3rem 2rem 1.5rem;
+  border-top: 2px solid var(--color-yonsei);
+  border-bottom: 2px solid var(--color-yonsei);
+}
+
+.root-container .professor-small img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.root-container .professor-name-small, .professor-profile-small {
+  font-size: 0.9em;
+  line-height: normal;
+}
+
+.root-container .professor-name-small {
+  color: var(--color-yonsei);
+  font-weight: 700;
+}
+
+.root-container #content-people {
+  display: flex;
+  align-self: stretch;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+#content-people .professor {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  padding-bottom: 1.5rem;
+
+  line-height: 160%;
+}
+
+#content-people .professor img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#content-people .professor-name {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: normal;
+  margin: 0.5rem 0;
+}
+
+.root-container .list-people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  padding-bottom: 1.5rem;
+}
+
+.root-container .list-publications {
+  background-color: #FBF9F7;
+  padding: 1.88rem;
+  margin: -0.2rem;
+}
+
+.root-container .list-articles {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.root-container .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--color-yonsei);
+  padding: 0rem 6.25rem;
+  margin-top: 2rem;
+
+  border-top: 1px solid var(--color-border-default);
+}
+
+.root-container .footer {
+  display: flex;
+  justify-content: space-between;
+  
+  color: #ffffff;
+  font-family: "MSK Sans Web", "Helvetica Neue";
+  font-size: 1em;
+
+  width: 100%;
+  max-width: 75rem;
+  padding: 2rem 0rem 15rem 0rem;
+}
+
+.root-container .footer-info-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.root-container .footer-info-button {
+  height: 2.5rem;
+  padding-bottom: 0.5rem;
+}

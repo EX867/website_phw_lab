@@ -1,0 +1,97 @@
+:root {
+    --color-primitives-gray-300: rgba(217, 217, 217, 1);
+    --color-primitives-gray-600: rgba(68, 68, 68, 1);
+    --color-primitives-gray-900: rgba(30, 30, 30, 1);
+    --color-primitives-slate-200: rgba(227, 227, 227, 1);
+    --color-primitives-slate-900: rgba(48, 48, 48, 1);
+    --color-primitives-white-1000: rgba(255, 255, 255, 1);
+    --color-background-default: var(--color-primitives-white-1000);
+    --color-border-default: var(--color-primitives-gray-300);
+    --color-text-default: var(--color-primitives-gray-900);
+    --color-text-neutral: var(--color-primitives-slate-900);
+    
+    --responsive-device-width: 1200px;
+    
+    --color-yonsei: rgba(0, 49, 116, 1);
+    --color-link: rgba(0, 115, 224, 1);
+  }
+  
+  /*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-responsive-mode="desktop">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+  
+/* // TODO: 이거  반응성으로 바꿔야함
+ [data-responsive-mode="desktop"] {
+    --responsive-device-width: 1200px;
+  }
+  
+  [data-responsive-mode="mobile"] {
+    --responsive-device-width: 375px;
+  }
+  
+  [data-responsive-mode="tablet"] {
+    --responsive-device-width: 768px;
+  }*/
+  
+  [data-color-mode="SDS-light"] {
+    --color-background-default: var(--color-primitives-white-1000);
+    --color-border-default: var(--color-primitives-gray-300);
+    --color-text-default: var(--color-primitives-gray-900);
+    --color-text-neutral: var(--color-primitives-slate-900);
+  }
+  
+  [data-color-mode="SDS-dark"] {
+    --color-background-default: var(--color-primitives-gray-900);
+    --color-border-default: var(--color-primitives-gray-600);
+    --color-text-default: var(--color-primitives-white-1000);
+    --color-text-neutral: var(--color-primitives-slate-200);
+  }
+  
+  
+
+  /*
+  <flex: https://studiomeal.com/archives/197>
+
+  display: flex; / inline-flex
+  flex-direction: column; (옵션)
+  flex-wrap: wrap; (옵션)
+  align-items: stretch;
+  align-content: stretch; (wrap인 경우만)
+  gap: 0.5em / justify-content: space-between; (옵션)
+
+  flex-basis: auto; (min-width) / flex: 0 0 auto
+
+  <font>
+  
+  font-family: "Arial", Helvetica
+  font-size: 2em;
+  color: #000000; (옵션)
+  font-style: normal; / italic (옵션)
+  font-weight: 400; / 700 / 500? (옵션)
+  letter-spacing: 0em; (옵션)
+  line-height: normal; (옵션)
+
+  <기타>
+
+  width: fit-content;
+
+  position: sticky;
+
+  <이펙트>
+  https://css-tricks.com/css-link-hover-effects/
+
+  <custom hook>: 복잡한 컴포넌트 동작이 필요할때
+  https://melthleeth.tistory.com/entry/React%EC%97%90%EC%84%9C-Form-Validation%EC%9D%84-%ED%95%B4%EB%B3%B4%EC%9E%90-ft-Custom-Hook
+
+@media screen and (min-width: 640px) {
+}
+  */
+  

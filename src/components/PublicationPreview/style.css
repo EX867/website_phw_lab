@@ -1,0 +1,14 @@
+.publication-preview[no_border="false"] {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #b5b2ad;
+}
+
+.publication-preview a {
+  color: var(--color-yonsei);
+  text-decoration-line: underline;
+}
+
+.publication-preview a:hover {
+  text-decoration-thickness: 2px;
+}

@@ -1,0 +1,73 @@
+
+.profile-card img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.profile-card figcaption{
+  padding: 0.5rem;
+}
+
+.profile-card .name {
+  color: var(--color-link);
+  font-weight: 600;
+  line-height: normal;
+
+  margin-bottom: 0.25rem;
+}
+
+.profile-card .email-wrapper {
+  position: relative;
+
+  margin-left: 0.25rem;
+  cursor: pointer;
+}
+
+.profile-card .email {
+  color: var(--color-link);
+  font-weight: 600;
+  line-height: normal;
+}
+
+.profile-card .email:hover{
+  text-decoration: underline;
+}
+
+.profile-card .caption {
+  font-size: 0.875em;
+  font-weight: 300;
+}
+
+.profile-card .popup {
+  position: absolute;
+  visibility: hidden;
+  
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 0.875em;
+  padding: 0.5rem 1rem;
+  
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
+  top: 150%;
+}
+
+.profile-card .popup:after {
+  position: absolute;
+
+  border: 10px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.8);
+  
+  bottom: 100%;
+  left: 50%;
+  margin-left: -10px;
+  pointer-events: none;
+  content: ' ';
+}
+
+.profile-card .email:hover + .popup {
+  visibility: visible;
+}
