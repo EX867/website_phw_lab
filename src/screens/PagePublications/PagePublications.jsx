@@ -2,7 +2,7 @@ import React from "react";
 
 import VerticalNavButton from "../../components/VerticalNavButton/VerticalNavButton";
 
-import {PublicationPreview} from "../../components/PublicationPreview";
+import PublicationPreview from "../../components/PublicationPreview/PublicationPreview";
 
 import "./style.css";
 
@@ -26,15 +26,16 @@ const Module = () => {
             <div className="content">
                 <div id="content-publication">
                     <div className="title-wrapper">
-                        <h2>The TCR Lab:&nbsp;&nbsp;All Publications</h2>
-                        <span className="description-label">{data_publications.length} results</span>
+                        <h2>The TCR Lab:&nbsp;&nbsp;Publications</h2>
+                        <span className="text-gray">{data_publications.length} results</span>
                     </div>
 
+                    <a href="https://scholar.google.co.kr/citations?hl=en&user=FdmQOs0AAAAJ&sortby=pubdate&view_op=list_works&gmla=AJsN-F4-j0vMeixWvh4gDgZvz9VaE8RmMf06np0YJ32IQshQavr3l8tFf797kezvf_qylJBz-ZxwfeTRH7rxDdN3MLqSUZgBBQ"><b>Google Scholar: Hyun Woo Park</b></a>
+                    <br/><br/>
+                
                     <div className="list-publications">
                         {data_publications.map((article, index) => <PublicationPreview article={article} no_border={index === 0}/>)}
                     </div>
-
-                    {/* <ContentButton label="View All Publications" href="/publications"/> */}
                 </div>
             </div>
         </div>

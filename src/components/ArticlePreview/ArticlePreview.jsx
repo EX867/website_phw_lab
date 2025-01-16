@@ -3,14 +3,13 @@ import "./style.css";
 
 const ArticlePreview = ({article}) => {
 	return (
-    <div className={`article-preview`}>
-        <img
-            width={128} height={128}
-            alt="preview of article"
-            src={article.preview_image}/>
+    <div className="article-preview">
+            <img className="size-[8rem]"
+                alt="preview of article"
+                src={article.preview_image}/>
         <div>
             <a href={article.src} target="_blank" rel="noreferrer">{article.title} </a>
-            <div className="text-time">{article.date}</div>
+            <div className="text-gray text-smaller py-1">{article.date}</div>
             <p>{article.preview_content}</p>
         </div>
     </div>

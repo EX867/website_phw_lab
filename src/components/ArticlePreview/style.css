@@ -3,28 +3,12 @@
   gap: 1rem;
 
   padding-top: 1rem;
-  border-top: 1px solid var(--color-yonsei);
-}
-
-.article-preview img {
-  object-fit: cover;
+  border-top: 1px solid theme("colors.yonsei");
 }
 
 .article-preview a {
-  color: var(--color-link);
   font-size: 1.5em; /*24px*/
   font-weight: 600;
-  line-height: normal;
 
-  margin: 1em 0;
-}
-
-.article-preview a:hover {
-  text-decoration-line: underline;
-}
-
-.article-preview .text-time {
-  color: var(--color-primitives-gray-600);
-  font-size: 0.9em;
-  margin: 0.15rem 0;
+  margin: 1.15em 0;
 }

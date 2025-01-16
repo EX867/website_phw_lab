@@ -1,12 +1,12 @@
 import React, {useEffect} from "react";
 
 import FollowingNavButton from "../../components/FollowingNavButton/FollowingNavButton";
-import {Carousel} from "../../components/Carousel";
+import Carousel from "../../components/Carousel/Carousel";
 
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
 import ArticlePreview from "../../components/ArticlePreview/ArticlePreview";
-import {PublicationPreview} from "../../components/PublicationPreview";
-import {ContentButton} from "../../components/ContentButton/ContentButton";
+import PublicationPreview from "../../components/PublicationPreview/PublicationPreview";
+import ContentButton from "../../components/ContentButton/ContentButton";
 
 import "./style.css";
 
@@ -106,20 +106,15 @@ const PageHome = () => {
     return (
         <div>
             <div className="main-image">
-                <Carousel
-                    className="carousel-instance"
-                    context="mobile"
-                    hasItem={false}
-                    hasItemLast={false}
-                    layout="hero"/>
-                <div className="main-text-frame">
+                <img alt="research content"
+                    src="./assets/images/main.png"/>
+                {/*<div className="main-text-frame">
                     <p className="main-text-detail">YONSEI UNIVERSITY</p>
                     <p className="main-text">The TCR Lab</p>
-                      <img className="logo"
-                          width={192}
-                          alt="The TCR Lab logo"
-                          src="./assets/images/logo.png"/>
-                </div>
+                        <img height={120}
+                            alt="The TCR Lab logo"
+                            src="./assets/images/logo.png"/>
+                </div>*/}
             </div>
             <div className="content-horizontal-flex">
                 <div id="home-left-nav-tab-wrapper">
@@ -132,7 +127,7 @@ const PageHome = () => {
                     </div>
                 </div>
 
-                <div className="content">
+                <div className="flex flex-col items-stretch gap-16">
                     <section id="content-research">
                         <h2>Research</h2>
                         <div className="content-horizontal-flex">
@@ -151,20 +146,28 @@ const PageHome = () => {
                                     (CTCs). Our goal is to develop next generation anti-metastatic 
                                     therapies to significantly reduce cancer death rate.
                                 </p>
+                                <br/>
+                                <h3>Research Projects</h3>
+                                <ul>
+                                    <li>Cancer cell plasticity and metastasis</li>
+                                    <li>Cancer metabolism and therapeutic responses</li>
+                                    <li>Immuno-oncology and inflammatory diseases</li>
+                                    <li>Next generation anti-cancer drug development </li>
+                                </ul>
                                 {/*<ContentButton label="More About Our Research" href="/research"/>*/}
                             </div>
 
                             <div className="professor-small">
-                                <img
+                                <img className="w-48"
                                     alt="professor Hyun Woo Park"
                                     src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
-                                <p className="professor-name-small">
+                                <div className="text-yonsei font-bold">
                                     Hyun Woo Park
-                                </p>
-                                <p className="professor-profile-small">
+                                </div>
+                                <div>
                                     Professor of Yonsei University
-                                </p>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -172,27 +175,32 @@ const PageHome = () => {
                     <section id="content-people">
                         <h2>People</h2>
 
-                        <div className="professor">
-                            <img
+                        <div className="flex basis-auto items-center gap-6">
+                            <img className="size-48"
                                 alt="professor Hyun Woo Park"
                                 src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
                             <div>
-                                <p className="professor-name">Hyun Woo (Henry) Park, Professor</p>
+                                <h2 className="text-black tracking-tight">Hyun Woo (Henry) Park, PhD</h2>
+                                <div className="text-small italic -mt-2">Associate Professor, Department of Biochemistry, Yonsei University</div>
                                 <ul>
-                                    <li>Associate Professor</li>
+                                    <li>Cancer biologist Hyun Woo (Henry) Park investigates cancer cell plasticity in metastatic cascade and anti-metastatic drug development</li>
                                     <li>Director, AST Metastasis Research Center</li>
-                                    <li>SUHF Fellow, Suh Kyungbae Foundation</li>
+                                    <li>SUHF Fellow</li>
+                                    <li>University of California, San Diego: Postdoctoral Fellowship</li>
+                                    <li>Yonsei University: PhD</li>
                                 </ul>
                             </div>
                         </div>
 
+                        <br/><br/>
                         <h3>Members</h3>
 
                         <div className="list-people">
                             {data_people.members.map(person => <ProfileCard person={person}/>)}
                         </div>
 
+                        <br/><br/>
                         <h3>Alumni</h3>
 
                         <div className="list-people">
@@ -223,8 +231,9 @@ const PageHome = () => {
                     <section id="content-open-positions">
                         <h2>Open Positions</h2>
                         <p>
-                            asdfasfsafsafsfas
+                            Our lab warmly welcomes PhD Candidates and Postdoctoral Fellows with an interest to tackle grand challenges in cancer biology and drug development.
                         </p>
+                        <a href="mailto:hwp003@yonsei.ac.kr">✉ hwp003@yonsei.ac.kr</a>
                     </section>
                 </div>
             </div>

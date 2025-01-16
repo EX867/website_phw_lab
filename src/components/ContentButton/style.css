@@ -1,24 +1,22 @@
-.content-button {
+button.content-button {
   justify-self: flex-start;
 
-  background-color: var(--color-link);
-
+  background-color: theme("colors.link");
+  
   padding: 0.5em 1em;
   margin-top: 2em;
-
   border-radius: 10em;
 }
 
-.content-button a {
-  color: white;
-  font-size: 1.05em;
-  font-weight: 700;
+button.content-button:hover {
+  background-color: theme("colors.yonsei");
 }
 
-.content-button:hover {
-  background-color: var(--color-yonsei);
-}
-
-.content-button:active {
+button.content-button:active {
   box-shadow: 1px 1px 3px 3px lightgrey;
+}
+
+button.content-button a {
+  color: theme("colors.white");
+  font-weight: bold;
 }

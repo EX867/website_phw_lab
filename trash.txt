@@ -1,0 +1,66 @@
+PageFrame.jsx
+
+                        {/*<div className="header-nav-bar">
+                            <HeaderNavButton label="Home" src="/"/>
+                            <HeaderNavButton label="Contact Us" src="/"/>
+
+                            <SearchInput color="var(--color-yonsei)"/>
+                        </div>*/}
+                        
+                  {/*<div className="top-nav-bar">
+                      <HorizontalNavButton label="Home" src="/"/>
+                      <HorizontalNavButton label="About Us" src="/"/>
+                  </div>*/}
+
+                      {/*<img className="footer-info-button"
+                          alt="Button list"
+                          src="https://c.animaapp.com/uGXPNsNv/img/button-list.svg"/>*/}
+
+style.css
+
+/*.root-container .header-nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 0.5rem;
+
+  margin-top: 0.5rem;
+}
+
+.root-container .header-search {
+  padding-left: 12.5rem;
+}
+
+.root-container .top-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  border-bottom: 3px solid var(--color-yonsei);
+}*/
+
+/*.root-container .main-text-frame {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--color-yonsei);
+  padding: 1rem 6rem 1rem 2rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.root-container .main-text-detail {
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-top: 0.5rem;
+}
+
+.root-container .main-text {
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: normal;
+}*/

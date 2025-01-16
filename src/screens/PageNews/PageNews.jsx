@@ -27,14 +27,12 @@ const Module = () => {
                 <div id="content-news">
                     <div className="title-wrapper">
                         <h2>The TCR Lab:&nbsp;&nbsp;Featured News</h2>
-                        <span className="description-label">{data_news.length} results</span>
+                        <span className="text-gray">{data_news.length} results</span>
                     </div>
 
                     <div className="list-articles">
                         {data_news.map(article => <ArticlePreview article={article}/>)}
                     </div>
-
-                    {/* <ContentButton label="View All News" href="/news"/> */}
                 </div>
             </div>
         </div>
