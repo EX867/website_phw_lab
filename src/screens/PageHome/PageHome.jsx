@@ -1,12 +1,14 @@
-import React, {useEffect} from "react";
+import React, {useState, useEffect} from "react";
 
 import FollowingNavButton from "../../components/FollowingNavButton/FollowingNavButton";
-import Carousel from "../../components/Carousel/Carousel";
+import VerticalNavButton from "../../components/VerticalNavButton/VerticalNavButton";
+//import Carousel from "../../components/Carousel/Carousel";
 
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
 import ArticlePreview from "../../components/ArticlePreview/ArticlePreview";
 import PublicationPreview from "../../components/PublicationPreview/PublicationPreview";
 import ContentButton from "../../components/ContentButton/ContentButton";
+import CopyLink from "../../components/CopyLink/CopyLink";
 
 import "./style.css";
 
@@ -60,6 +62,8 @@ function debounce(func, wait) {
   
 
 const PageHome = () => {
+    const [isOpen, setMenu] = useState(false);
+
     useEffect(() => {
         let sections = Array.from(document.getElementsByTagName("section"));
         let nav_buttons = Array.from(document.getElementsByClassName("following-nav-button")); // 동적생성으로 바꿀까?
@@ -92,19 +96,45 @@ const PageHome = () => {
         window.addEventListener("scroll", event_scroll);
         highlight_nav_buttons();
 
-        let e = ()=>{ // TEST
-            console.log(document.activeElement);
-        };
-        window.addEventListener("mousedown", e);
-        window.addEventListener("mouseup", e);
+        // let e = ()=>{ // TEST
+        //     console.log(document.activeElement);
+        // };
+        // window.addEventListener("mousedown", e);
+        // window.addEventListener("mouseup", e);
 
         return () => {
           window.removeEventListener("scroll", event_scroll);
         };
     }, []);
+  
+    const toggleMenu = () => {
+        setMenu(!isOpen);
+    }
+
+    const closeMenu = () => {
+          setMenu(false);
+    }
 
     return (
         <div>
+            <div className="mobile-menu">
+                <div className="bg-yonsei">
+                    <button className="menu-button" label="menu" onClick={toggleMenu}>
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 18L20 18" strokeWidth="1.7" strokeLinecap="square"/>
+                            <path d="M4 12L20 12" strokeWidth="1.7" strokeLinecap="square"/>
+                            <path d="M4 6L20 6" strokeWidth="1.7" strokeLinecap="square"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="mobile-left-nav-tab" className={isOpen ? "show-menu" : "hide-menu"}>
+                    <VerticalNavButton label="Research" src="#content-research" onClick={closeMenu}/>
+                    <VerticalNavButton label="Featured News" src="#content-news" onClick={closeMenu}/>
+                    <VerticalNavButton label="Publication Highlights" src="#content-publication" onClick={closeMenu}/>
+                    <VerticalNavButton label="People" src="#content-people" onClick={closeMenu}/>
+                    <VerticalNavButton label="Open Positions" src="#content-open-positions" onClick={closeMenu}/>
+                </div>
+            </div>
             <div className="main-image">
                 <img alt="research content"
                     src="./assets/images/main.png"/>
@@ -120,9 +150,9 @@ const PageHome = () => {
                 <div id="home-left-nav-tab-wrapper">
                     <div id="home-left-nav-tab">
                         <FollowingNavButton label="Research" src="#content-research"/>
-                        <FollowingNavButton label="People" src="#content-people"/>
-                        <FollowingNavButton label="Publication Highlights" src="#content-publication"/>
                         <FollowingNavButton label="Featured News" src="#content-news"/>
+                        <FollowingNavButton label="Publication Highlights" src="#content-publication"/>
+                        <FollowingNavButton label="People" src="#content-people"/>
                         <FollowingNavButton label="Open Positions" src="#content-open-positions"/>
                     </div>
                 </div>
@@ -172,16 +202,36 @@ const PageHome = () => {
                         </div>
                     </section>
 
+                    <section id="content-news">
+                        <h2>Featured News</h2>
+
+                        <div className="list-articles">
+                            {data_news.filter(article => article.featured).map(article => <ArticlePreview article={article}/>)}
+                        </div>
+
+                        <ContentButton label="View All News" href="/news"/>
+                    </section>
+
+                    <section id="content-publication">
+                        <h2>Publication Highlights</h2>
+
+                        <div className="list-publications">
+                            {data_publications.filter(article => article.featured).map((article, index) => <PublicationPreview article={article} no_border={index === 0}/>)}
+                        </div>
+
+                        <ContentButton label="View All Publications" href="/publications"/>
+                    </section>
+
                     <section id="content-people">
                         <h2>People</h2>
 
-                        <div className="flex basis-auto items-center gap-6">
+                        <div className="flex basis-auto gap-6">
                             <img className="size-48"
                                 alt="professor Hyun Woo Park"
                                 src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
                             <div>
-                                <h2 className="text-black tracking-tight">Hyun Woo (Henry) Park, PhD</h2>
+                                <h2 className="text-text_black">Hyun Woo (Henry) Park, PhD</h2>
                                 <div className="text-small italic -mt-2">Associate Professor, Department of Biochemistry, Yonsei University</div>
                                 <ul>
                                     <li>Cancer biologist Hyun Woo (Henry) Park investigates cancer cell plasticity in metastatic cascade and anti-metastatic drug development</li>
@@ -208,32 +258,12 @@ const PageHome = () => {
                         </div>
                     </section>
                     
-                    <section id="content-publication">
-                        <h2>Publication Highlights</h2>
-
-                        <div className="list-publications">
-                            {data_publications.filter(article => article.featured).map((article, index) => <PublicationPreview article={article} no_border={index === 0}/>)}
-                        </div>
-
-                        <ContentButton label="View All Publications" href="/publications"/>
-                    </section>
-
-                    <section id="content-news">
-                        <h2>Featured News</h2>
-
-                        <div className="list-articles">
-                            {data_news.filter(article => article.featured).map(article => <ArticlePreview article={article}/>)}
-                        </div>
-
-                        <ContentButton label="View All News" href="/news"/>
-                    </section>
-                    
                     <section id="content-open-positions">
                         <h2>Open Positions</h2>
                         <p>
                             Our lab warmly welcomes PhD Candidates and Postdoctoral Fellows with an interest to tackle grand challenges in cancer biology and drug development.
                         </p>
-                        <a href="mailto:hwp003@yonsei.ac.kr">✉ hwp003@yonsei.ac.kr</a>
+                        <CopyLink label="✉ hwp003@yonsei.ac.kr" content="hwp003@yonsei.ac.kr" description="email"/>
                     </section>
                 </div>
             </div>

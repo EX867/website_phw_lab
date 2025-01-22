@@ -1,87 +1,87 @@
 {
     "members": [
         {
-            "src": "./assets/images/members/So Yeon Park.jpg",
+            "src": "./assets/images/members/So Yeon Park.png",
             "name": "So Yeon Park",
-            "caption": "Ph. D. Student",
+            "caption": "PhD Student",
             "email": "psy06057@naver.com"
         },
         {
-            "src": "./assets/images/members/Dong Hyeon Kim.jpg",
+            "src": "./assets/images/members/Dong Hyeon Kim.png",
             "name": "Dong Hyeon Kim",
-            "caption": "Ph. D. Student",
+            "caption": "PhD Student",
             "email": "dhk1107@yonsei.ac.kr"
         },
         {
-            "src": "./assets/images/members/Seok Chan Cho.jpg",
+            "src": "./assets/images/members/Seok Chan Cho.png",
             "name": "Seok Chan Cho",
-            "caption": "Ph. D. Student",
+            "caption": "PhD Student",
             "email": "sc0330@yonsei.ac.kr"
         },
         {
-            "src": "./assets/images/members/Ji Eun Paik.jpg",
+            "src": "./assets/images/members/Ji Eun Paik.png",
             "name": "Ji Eun Paik",
-            "caption": "Ph. D. Student",
+            "caption": "PhD Student",
             "email": "paik_jieun@yonsei.ac.kr"
         },
         {
-            "src": "./assets/images/members/Woo Yang Pyun.jpg",
+            "src": "./assets/images/members/Woo Yang Pyun.png",
             "name": "Woo Yang Pyun",
-            "caption": "Ph. D. Student",
+            "caption": "PhD Student",
             "email": "kpwy910@yonsei.ac.kr"
         },
         {
-            "src": "./assets/images/members/Han Nah Lee.jpg",
+            "src": "./assets/images/members/Han Nah Lee.png",
             "name": "Han Nah Lee",
-            "caption": "Ph. D. Student",
+            "caption": "PhD Student",
             "email": "hnlee@yonsei.ac.kr"
         },
         {
-            "src": "./assets/images/members/Byun Jong Hwa.jpg",
+            "src": "./assets/images/members/Byun Jong Hwa.png",
             "name": "Byun Jong Hwa",
-            "caption": "Ph. D. Student",
+            "caption": "PhD Student",
             "email": "buynbagsa@yonsei.ac.kr"
         },
         {
-            "src": "./assets/images/members/Jeong Been Lee.jpg",
+            "src": "./assets/images/members/Jeong Been Lee.png",
             "name": "Jeong Been Lee",
-            "caption": "Ph. D. Student",
+            "caption": "PhD Student",
             "email": "ljb720@yonsei.ac.kr"
         },
         {
-            "src": "./assets/images/members/Jang Yi Kim.jpg",
-            "name": "Jang Yi Kim",
+            "src": "./assets/images/members/Jang Yi Lim.png",
+            "name": "Jang Yi Lim",
             "caption": "Research Administrator",
             "email": "wkddl0416@yonsei.ac.kr"
         }
     ],
     "alumni": [
         {
-            "src": "./assets/images/alumni/Jae Hyung Park.jpg",
+            "src": "./assets/images/alumni/Jae Hyung Park.png",
             "name": "Jae Hyung Park",
-            "caption": "Ph. D.",
+            "caption": "PhD",
             "email": "jaehyung_park@tmax.co.kr"
         },
         {
-            "src": "./assets/images/alumni/Hyun Bin Huh.jpg",
+            "src": "./assets/images/alumni/Hyun Bin Huh.png",
             "name": "Hyun Bin Huh",
-            "caption": "Ph. D.",
+            "caption": "PhD",
             "email": "huhhb621@yonsei.ac.kr"
         },
         {
-            "src": "./assets/images/alumni/Ji Eun Shin.jpg",
+            "src": "./assets/images/alumni/Ji Eun Shin.png",
             "name": "Ji Eun Shin",
-            "caption": "Ph. D.",
+            "caption": "PhD",
             "email": "sjer@yonsei.ac.kr"
         },
         {
-            "src": "./assets/images/alumni/Ye Eun Kim.jpg",
+            "src": "./assets/images/alumni/Ye Eun Kim.png",
             "name": "Ye Eun Kim",
             "caption": "Master",
             "email": "yeeun3189@naver.com"
         },
         {
-            "src": "./assets/images/alumni/Ju Young Lee.jpg",
+            "src": "./assets/images/alumni/Ju Young Lee.png",
             "name": "Ju Young Lee",
             "caption": "Master",
             "email": "bboojy@yonsei.ac.kr"

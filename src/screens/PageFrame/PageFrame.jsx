@@ -15,7 +15,7 @@ const Module = () => {
         <div className="root-container">
             <div className="body-container">
                 <div className="body">
-                    <div className="flex gap-6 h-[7rem] p-4 border-b-[3px] border-yonsei">
+                    <div className="flex gap-6 h-[7rem] p-4 border-solid border-b-[3px] border-yonsei">
                         <a href="/">
                             <img className="h-full" 
                                 alt="Yonsei University"

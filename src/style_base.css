@@ -1,13 +1,12 @@
 @tailwind base;
 
-@import url('https://cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css');
-
 @layer base {
 	html {
-		color: theme("colors.black");
-        font-family: "Red Hat Text", "Noto Sans KR", sans-serif;
-		font-size: 16px;
-		font-weight: 300;
+		color: theme("colors.text_black");
+        font-family: "DM Sans", "Noto Sans KR", sans-serif;
+		font-size: 17px;
+		font-weight: 400;
+        letter-spacing: -0.01em;
     }
 
     html, body {    
@@ -25,9 +24,8 @@
 
     h1, h2, h3, h4, h5, h6 {
         color: theme("colors.yonsei");
-        font-weight: bold;
         line-height: normal;
-        margin-bottom: 0.4em;
+        margin-bottom: 0.5em;
     }
 
     p {
@@ -36,32 +34,57 @@
     }
 
     h1 {
-        font-size: 3em;
+        font-size: 2em;
+        font-weight: 900;
+        line-height: normal;
         /*48px*/
     }
 
+    @media screen and (min-width: 1088px) {
+        h1 {
+            font-size: 2.8em;
+        }
+    }
+
     h2 {
-        font-size: 2em;
+        font-size: 1.5em;
+        font-weight: 900;
         /*32px*/
     }
 
+    @media screen and (min-width: 1088px) {
+        h2 {
+            font-size: 2em;
+        }
+    }
+
     h3 {
-        font-size: 1.5em;
+        font-size: 1.2em;
+        font-weight: 700;
         /*24px*/
+    }
+
+    @media screen and (min-width: 1088px) {
+        h3 {
+            font-size: 1.5em;
+        }
     }
 
     h4 {
         font-size: 1em;
+        font-weight: 700;
         /*16px*/
     }
 
     h5 {
         font-size: 0.88em;
+        font-weight: 700;
         /*14px*/
     }
 
     h6 {
         font-size: 0.75em;
+        font-weight: 700;
         /*12px*/
     }
 
@@ -101,6 +124,7 @@
     li::marker {
         content: "◼  ";
         color: var(--color-link);
+        font-size: 80%;
     }
 
     a {

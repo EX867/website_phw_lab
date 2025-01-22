@@ -1,0 +1,13 @@
+.copy-link {
+  color: theme("colors.link");
+  font-weight: 600;
+  line-height: normal;
+}
+
+.copy-link:hover{
+  text-decoration: underline;
+}
+
+.copy-link:active{
+  color: theme("colors.yonsei");
+}

@@ -9,6 +9,7 @@
 .following-nav-button .label {
   color: var(--color-yonsei);
   font-weight: 400;
+  line-height: 150%;
 }
 
 .following-nav-button .label:hover {

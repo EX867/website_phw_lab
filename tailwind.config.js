@@ -6,11 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        text_black: "rgb(59, 57, 56)",
+        text_gray: "rgb(78, 78, 78)",
         yonsei: "rgba(0, 49, 116, 1)",
         link: "rgba(0, 115, 224, 1)",
         black: "#000000",
         white: "#FFFFFF",
-        gray: "rgba(48, 48, 48, 1)"
+        gray: "rgb(181, 178, 173)"
       },
       fontSize: {
         smaller: "0.9em",

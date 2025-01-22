@@ -26,7 +26,7 @@ const Module = () => {
             <div className="content">
                 <div id="content-publication">
                     <div className="title-wrapper">
-                        <h2>The TCR Lab:&nbsp;&nbsp;Publications</h2>
+                        <h1>The TCR Lab:&nbsp;&nbsp;Publications</h1>
                         <span className="text-gray">{data_publications.length} results</span>
                     </div>
 
