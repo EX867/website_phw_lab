@@ -4,7 +4,7 @@ import "./style.css";
 const ArticlePreview = ({article}) => {
 	return (
     <div className="article-preview">
-            <img className="size-[8rem]"
+            <img className="size-[8rem] max-w-[40%]"
                 alt="preview of article"
                 src={article.preview_image}/>
         <div>

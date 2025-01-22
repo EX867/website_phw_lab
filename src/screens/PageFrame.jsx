@@ -16,15 +16,11 @@ const Module = () => {
             <div className="body-container">
                 <div className="body">
                     <div className="header">
-                        <a href="/">
-                            <img className="max-h-[4rem]"
-                                alt="Yonsei University"
-                                src="./assets/images/header1.png"/>
+                        <a href="/" className="max-h-full shrink-0">
+                            <img src="./assets/images/header1.png" alt="Yonsei University" className="size-full"></img>
                         </a>
-                        <a href="/">
-                            <img className="max-h-[4rem]"
-                                alt="research visualization"
-                                src="./assets/images/header2.png"/>
+                        <a href="/" className="max-h-full">
+                            <img src="./assets/images/header2.png" alt="research visualization" className="size-full"></img>
                         </a>
                     </div>
 

@@ -1,6 +1,11 @@
 @tailwind base;
 
 @layer base {
+
+    * {
+        overflow-wrap: anywhere;
+    }
+
 	html {
 		color: theme("colors.text_black");
         font-family: "DM Sans", "Noto Sans KR", sans-serif;
@@ -16,6 +21,10 @@
         max-height: none;
         object-fit: cover;
         flex-shrink: 0;
+    }
+
+    button {
+        border: none;
     }
 
     h1, h2, h3, h4, h5, h6 {

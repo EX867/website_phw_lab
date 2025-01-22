@@ -1,5 +1,5 @@
 .profile-card {
-  width: 9.5rem;
+  width: 9.2rem;
 
 }
 
@@ -35,8 +35,11 @@
 }
 
 .profile-card .popup {
+  word-break: normal;
+  overflow-wrap: break-word;
+
   position: absolute;
-  visibility: hidden;
+  display: none;
   
   background: rgba(0, 0, 0, 0.8);
   color: white;
@@ -47,9 +50,9 @@
   -moz-border-radius: 8px;
   border-radius: 8px;
 
-  left: 50%;
+  right: 50%;
   top: 150%;
-  transform: translate(-50%, 0);
+  transform: translate(50%, 0);
 }
 
 .profile-card .popup:after {
@@ -66,5 +69,5 @@
 }
 
 .profile-card span:hover + .popup {
-  visibility: visible;
+  display: block;
 }

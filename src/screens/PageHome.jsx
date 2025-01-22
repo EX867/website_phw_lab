@@ -161,7 +161,7 @@ const PageHome = () => {
                             </div>
 
                             <div className="professor-small">
-                                <img className="w-48"
+                                <img className="w-48 max-w-[95%]"
                                     alt="professor Hyun Woo Park"
                                     src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
@@ -199,7 +199,7 @@ const PageHome = () => {
                         <h2>People</h2>
 
                         <div className="content-horizontal-flex gap-6">
-                            <img className="size-48"
+                            <img className="size-48 max-w-[95%]"
                                 alt="professor Hyun Woo Park"
                                 src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
