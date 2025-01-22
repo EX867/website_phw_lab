@@ -161,7 +161,7 @@ const PageHome = () => {
                             </div>
 
                             <div className="professor-small">
-                                <img className="w-48 max-w-[95%]"
+                                <img className="w-48"
                                     alt="professor Hyun Woo Park"
                                     src="./assets/images/professor/Hyun Woo Park.jpg"/>
 

@@ -176,6 +176,12 @@
   line-height: normal;
 }
 
+@media screen and (max-width: 799px) {
+  .professor-small img {
+    max-width: 95%;
+  }
+}
+
 .root-container .list-people {
   overflow: hidden;
   display: flex;
