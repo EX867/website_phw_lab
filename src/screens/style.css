@@ -22,8 +22,7 @@
   flex-direction: column;
   align-items: stretch;
 
-  max-width: 75rem;
-  padding-top: 0.5rem;
+  max-width: 1200px;
 }
 
 .root-container .main-image {
@@ -35,26 +34,43 @@
   width: 100%;
 }
 
+.root-container .header {
+  min-width: 0;
+  display: flex;
+  gap: 1.5rem;
+
+  padding: 1rem;;
+}
+
+@media screen and (min-width: 800px) {
+  .root-container .header {
+    border-bottom: 3px solid theme("colors.yonsei")
+  }
+}
+
 .root-container .content-horizontal-flex {
   display: flex;
-  gap: 2.5rem;
 }
 
 @media screen and (max-width: 799px) {
   .root-container .content-horizontal-flex {
     flex-direction: column;
-
-    padding: 0 2rem;
   }
 }
 
-.root-container #home-left-nav-tab-wrapper {
+.root-container #desktop-nav-wrapper {
   width: 22%;
   flex-shrink: 0;
   overflow: visible;
 }
 
-.root-container #home-left-nav-tab {
+@media screen and (max-width: 799px) {
+  .root-container #desktop-nav-wrapper{
+    display: none;
+  }
+}
+
+.root-container #home-nav {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -64,97 +80,53 @@
 }
 
 @supports (position: sticky) or (position: -webkit-sticky) {
-  .root-container #home-left-nav-tab {
+  .root-container #home-nav {
     position: sticky;
   }
 }
 
-.root-container #other-left-nav-tab-wrapper {
-  width: 22%;
-  flex-shrink: 0;
-  overflow: visible;
-  margin-top: 0.5rem;
-}
-
-.root-container #other-left-nav-tab {
+.root-container #other-nav {
   display: flex;
   flex-direction: column;
 
   position: sticky;
   top: 3rem;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 1rem;
+  margin-top: 0.5rem;
 
   border-top: 5px solid var(--color-yonsei);
   border-radius: 3px 3px 0 0;
 }
 
-.root-container .left-nav-tab-home {
+.root-container .other-nav-home {
   color: var(--color-link);
   font-size: 1.5em;
   font-weight: 600;
   text-decoration: underline;
   text-decoration-thickness: 2px;
 
-  padding: 1rem 0;
+  padding: 1em 0;
   
   border-bottom: 1px solid #b5b2ad;
 }
 
-@media screen and (max-width: 799px) {
-  .root-container #home-left-nav-tab-wrapper{
-    display: none;
-  }
-}
-
-.root-container .mobile-menu{
-  z-index: 1;
-}
-
-@media screen and (min-width: 800px) {
-  .root-container .mobile-menu{
-    display: none;
-  }
-}
-
-@supports (position: sticky) or (position: -webkit-sticky) {
-  .root-container .mobile-menu{
-    position: sticky;
-    top: 0;
-  }
-}
-
-.root-container .menu-button {
-  padding: 0.2rem;
-}
-
-.root-container .menu-button svg{
-  width: 2rem;
-  height: 2rem;
-
-  stroke: theme("colors.white");
-}
-
-.root-container #mobile-left-nav-tab {
+.root-container #content {
   display: flex;
   flex-direction: column;
-
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-
-  background-color: theme("colors.white");
-  padding: 0 1rem 1rem 1rem;
-  z-index: 1;
-  
-  transition: 1s;
+  align-items: stretch;
+  gap: 4rem;
 }
 
-.root-container .show-menu{
-  left: 0px;
+@media screen and (max-width: 799px) {
+  .root-container #content {
+    padding: 0 2rem;
+  }
 }
-  
-.root-container .hide-menu{
-  left: -100%;
+
+@media screen and (max-width: 799px) {
+  .root-container section {
+    scroll-margin-top: 4.4rem;
+  }
 }
 
 .root-container .title-wrapper {
@@ -163,7 +135,7 @@
   justify-content: space-between;
 }
 
-.root-container .back-button-wrapper {
+.root-container .back-button-bar {
   padding: 4rem 0 1.5rem 0;
 }
 
@@ -178,8 +150,8 @@
   
   content: " ";
   background-color: var(--color-link);
-  -webkit-mask-image: url("../../icons/back.svg");
-  mask-image: url("../../icons/back.svg");
+  -webkit-mask-image: url("../icons/back.svg");
+  mask-image: url("../icons/back.svg");
   background-size: contain;
   background-position: bottom;
   
@@ -214,7 +186,7 @@
 .root-container .list-publications {
   background-color: #FBF9F7;
   padding: 1.88rem;
-  margin: -0.2rem;
+  margin-left: -0.2rem;
 }
 
 .root-container .list-articles {
@@ -224,27 +196,30 @@
   gap: 1rem;
 }
 
-.root-container .footer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
+.root-container .footer-wrapper {
   background-color: var(--color-yonsei);
-  padding: 0rem 6.25rem;
+  width: 100%;
   margin-top: 2rem;
-
-  border-top: 1px solid theme("colors.white");
 }
 
 .root-container .footer {
   display: flex;
   justify-content: space-between;
-  
+
   color: #ffffff;
 
-  width: 100%;
-  max-width: 75rem;
-  padding: 2rem 0rem 15rem 0rem;
+  max-width: 1200px;
+  padding: 2rem 2rem 15rem 2rem;
+}
+
+@media screen and (max-width: 799px) {
+  .root-container .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5rem;
+
+    padding: 2rem;
+  }
 }
 
 .root-container .footer-info-list {

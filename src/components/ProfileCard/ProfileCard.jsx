@@ -8,10 +8,12 @@ const ProfileCard = ({person}) => {
     <div className={`profile-card`}>
       <img src={person.src} alt={"Picture of " + person.name}/>
       <div className="wrapper">
-        <div>
+        <div className="overflow-visible">
           <span className="name">{person.name}</span>
           <span className="email-wrapper">
-            <CopyLink label="✉" content={person.email} description="email"/>
+            <CopyLink content={person.email} description="email">
+              <span className="material-icons">mail</span>
+            </CopyLink>
             <div className="popup">{person.email}</div>
           </span>
         </div>

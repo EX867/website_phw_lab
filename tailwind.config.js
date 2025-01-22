@@ -12,7 +12,10 @@ module.exports = {
         link: "rgba(0, 115, 224, 1)",
         black: "#000000",
         white: "#FFFFFF",
-        gray: "rgb(181, 178, 173)"
+        gray: "rgb(181, 178, 173)",
+
+        hover: "rgba(0, 0, 0, 0.3)",
+        active: "rgba(0, 0, 0, 0.6)"
       },
       fontSize: {
         smaller: "0.9em",

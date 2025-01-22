@@ -1,20 +1,19 @@
-import React, {useState, useEffect} from "react";
+import React, {useEffect} from "react";
 
-import FollowingNavButton from "../../components/FollowingNavButton/FollowingNavButton";
-import VerticalNavButton from "../../components/VerticalNavButton/VerticalNavButton";
+import MobileNavBar from "components/MobileNavBar/MobileNavBar";
+import FollowingNavButton from "../components/FollowingNavButton/FollowingNavButton";
+import VerticalNavButton from "../components/VerticalNavButton/VerticalNavButton";
 //import Carousel from "../../components/Carousel/Carousel";
 
-import ProfileCard from "../../components/ProfileCard/ProfileCard";
-import ArticlePreview from "../../components/ArticlePreview/ArticlePreview";
-import PublicationPreview from "../../components/PublicationPreview/PublicationPreview";
-import ContentButton from "../../components/ContentButton/ContentButton";
-import CopyLink from "../../components/CopyLink/CopyLink";
+import ProfileCard from "../components/ProfileCard/ProfileCard";
+import ArticlePreview from "../components/ArticlePreview/ArticlePreview";
+import PublicationPreview from "../components/PublicationPreview/PublicationPreview";
+import ContentButton from "../components/ContentButton/ContentButton";
+import CopyLink from "../components/CopyLink/CopyLink";
 
-import "./style.css";
-
-import data_news from "../../content/news.json";
-import data_people from "../../content/people.json";
-import data_publications from "../../content/publications.json";
+import data_news from "../content/news.json";
+import data_people from "../content/people.json";
+import data_publications from "../content/publications.json";
 
 function debounce(func, wait) {
     let timeout;
@@ -62,8 +61,6 @@ function debounce(func, wait) {
   
 
 const PageHome = () => {
-    const [isOpen, setMenu] = useState(false);
-
     useEffect(() => {
         let sections = Array.from(document.getElementsByTagName("section"));
         let nav_buttons = Array.from(document.getElementsByClassName("following-nav-button")); // 동적생성으로 바꿀까?
@@ -96,45 +93,21 @@ const PageHome = () => {
         window.addEventListener("scroll", event_scroll);
         highlight_nav_buttons();
 
-        // let e = ()=>{ // TEST
-        //     console.log(document.activeElement);
-        // };
-        // window.addEventListener("mousedown", e);
-        // window.addEventListener("mouseup", e);
-
         return () => {
           window.removeEventListener("scroll", event_scroll);
         };
     }, []);
-  
-    const toggleMenu = () => {
-        setMenu(!isOpen);
-    }
-
-    const closeMenu = () => {
-          setMenu(false);
-    }
 
     return (
         <div>
-            <div className="mobile-menu">
-                <div className="bg-yonsei">
-                    <button className="menu-button" label="menu" onClick={toggleMenu}>
-                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4 18L20 18" strokeWidth="1.7" strokeLinecap="square"/>
-                            <path d="M4 12L20 12" strokeWidth="1.7" strokeLinecap="square"/>
-                            <path d="M4 6L20 6" strokeWidth="1.7" strokeLinecap="square"/>
-                        </svg>
-                    </button>
-                </div>
-                <div id="mobile-left-nav-tab" className={isOpen ? "show-menu" : "hide-menu"}>
-                    <VerticalNavButton label="Research" src="#content-research" onClick={closeMenu}/>
-                    <VerticalNavButton label="Featured News" src="#content-news" onClick={closeMenu}/>
-                    <VerticalNavButton label="Publication Highlights" src="#content-publication" onClick={closeMenu}/>
-                    <VerticalNavButton label="People" src="#content-people" onClick={closeMenu}/>
-                    <VerticalNavButton label="Open Positions" src="#content-open-positions" onClick={closeMenu}/>
-                </div>
-            </div>
+            <MobileNavBar>
+                <VerticalNavButton label="Research" src="#content-research"/>
+                <VerticalNavButton label="Featured News" src="#content-news"/>
+                <VerticalNavButton label="Publication Highlights" src="#content-publication"/>
+                <VerticalNavButton label="People" src="#content-people"/>
+                <VerticalNavButton label="Open Positions" src="#content-open-positions"/>
+            </MobileNavBar>
+
             <div className="main-image">
                 <img alt="research content"
                     src="./assets/images/main.png"/>
@@ -146,9 +119,9 @@ const PageHome = () => {
                             src="./assets/images/logo.png"/>
                 </div>*/}
             </div>
-            <div className="content-horizontal-flex">
-                <div id="home-left-nav-tab-wrapper">
-                    <div id="home-left-nav-tab">
+            <div className="content-horizontal-flex gap-20">
+                <div id="desktop-nav-wrapper">
+                    <div id="home-nav">
                         <FollowingNavButton label="Research" src="#content-research"/>
                         <FollowingNavButton label="Featured News" src="#content-news"/>
                         <FollowingNavButton label="Publication Highlights" src="#content-publication"/>
@@ -157,10 +130,10 @@ const PageHome = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-stretch gap-16">
+                <div id="content">
                     <section id="content-research">
                         <h2>Research</h2>
-                        <div className="content-horizontal-flex">
+                        <div className="content-horizontal-flex gap-6">
                             <div>
                                 <p>
                                     The Hyun Woo (Henry) Park lab is interested in understanding 
@@ -209,7 +182,7 @@ const PageHome = () => {
                             {data_news.filter(article => article.featured).map(article => <ArticlePreview article={article}/>)}
                         </div>
 
-                        <ContentButton label="View All News" href="/news"/>
+                        <ContentButton label="View All Featured News" href="/news"/>
                     </section>
 
                     <section id="content-publication">
@@ -225,7 +198,7 @@ const PageHome = () => {
                     <section id="content-people">
                         <h2>People</h2>
 
-                        <div className="flex basis-auto gap-6">
+                        <div className="content-horizontal-flex gap-6">
                             <img className="size-48"
                                 alt="professor Hyun Woo Park"
                                 src="./assets/images/professor/Hyun Woo Park.jpg"/>
@@ -263,7 +236,9 @@ const PageHome = () => {
                         <p>
                             Our lab warmly welcomes PhD Candidates and Postdoctoral Fellows with an interest to tackle grand challenges in cancer biology and drug development.
                         </p>
-                        <CopyLink label="✉ hwp003@yonsei.ac.kr" content="hwp003@yonsei.ac.kr" description="email"/>
+                        <CopyLink content="hwp003@yonsei.ac.kr" description="email">
+                            <span className="material-icons">mail</span>&nbsp;hwp003@yonsei.ac.kr
+                        </CopyLink>
                     </section>
                 </div>
             </div>

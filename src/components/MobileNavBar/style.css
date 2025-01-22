@@ -1,0 +1,58 @@
+@tailwind utilities;
+
+@media screen and (max-width: 799px) {
+  .cover-back {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: theme("colors.active");
+  }
+}
+
+.mobile-nav-bar *:not(.cover-back){
+  z-index: 100;
+}
+
+@media screen and (min-width: 800px) {
+  .mobile-nav-bar{
+    display: none;
+  }
+}
+
+@supports (position: sticky) or (position: -webkit-sticky) {
+  .mobile-nav-bar{
+    position: sticky;
+    top: 0;
+  }
+}
+
+.mobile-nav-bar nav {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  width: 80%;
+  height: calc(100vh - 2.6rem);
+
+  background-color: theme("colors.white");
+  padding: 0 1rem 1rem 1rem;
+  
+  transition: 1s;
+}
+
+.mobile-nav-bar svg {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.show-menu {
+  left: 0px;
+}
+  
+.hide-menu {
+  left: -100%;
+}
