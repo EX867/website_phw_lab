@@ -1,34 +1,34 @@
 [
     {
         "featured": true,
-        "title": "혹부리영감처럼···\"암세포, 제거 어렵다면 동거할 수 있어야\"",
-        "date": "September 29, 2024",
-        "src": "https://www.hellodd.com/news/articleView.html?idxno=105540",
-        "preview_image": "https://cdn.hellodd.com/news/photo/202409/105540_325724_3024.jpg",
-        "preview_content": "[인터뷰] 박현우 과학난제 AST암전이연구단장(연세대 교수): 암세포 발생과 전이 현상 설명 'AST 국제학설' 세계 최초로 정립. 암세포 탈부착 조절 기술로 암 환자 사망원인 ‘암전이’ 차단. ​​​​​​​암 제거 아닌 관리 영역으로 '차차세대 항전이제' 개발 선도"
+        "title": "만성 염증과 종양 치료의 새로운 길 열다: 대식세포 TAZ 타겟 규명",
+        "date": "January 1, 2024",
+        "src": "https://www.ibric.org/bric/trend/bio-news.do?mode=view&beforeMode=research-result&articleNo=9950940#!/list",
+        "preview_image": "./assets/images/news/flt3-taz signaling.png",
+        "preview_content": "연세대학교(총장 윤동섭) 생화학과 박현우 교수 연구팀이 대식세포에서 만성 염증과 종양 미세환경에서의 면역 반응을 조절하는 새로운 분자기전을 밝혀냈다.  이번 연구는 대식세포 내에서 TAZ 단백질이 기존 Hippo 신호 경로와는 독립적으로 작용해 염증성 사이토카인 분비를 조절하며, 만성 염증성 질환 및 암 등 난치성 질환 치료의 새로운 표적이 될 가능성을 제시했다."
     },
     {
         "featured": true,
-        "title": "[연구 프론티어] AST암전이연구단, '2024 국가연구개발 우수성과 100선' 선정",
+        "title": "AST암전이연구단, '2024 국가연구개발 우수성과 100선' 선정",
         "date": "December 18, 2024",
         "src": "https://www.yonsei.ac.kr/ocx/news.jsp?mode=view&ar_seq=20241218091343995052&sr_volume=636&list_mode=list&sr_site=S&pager.offset=0&sr_cates=25",
-        "preview_image": "https://www.yonsei.ac.kr/_attach/editor_image/2024-12/kpmrvnffcfwi.jpg",
+        "preview_image": "./assets/images/news/ast international network.png",
         "preview_content": "생화학과 박현우 교수가 이끄는 AST암전이연구단의 ‘AST 국제학설 정리 및 항전이요법 개발’ 연구가 생명 분야에서 우수성을 인정받아 ‘2024 국가연구개발 우수성과 100선’에 선정됐다."
     },
     {
         "featured": true,
-        "title": "2024 Research Highlights",
-        "date": "December 1, 2024",
-        "src": "",
-        "preview_image": "https://www.yonsei.ac.kr/_attach/editor_image/2024-12/tpuaxlbooxwo.jpg",
-        "preview_content": "The Park Lab at Yonsei University focuses on cutting-edge research in the fields of Biochemistry and Molecular Biology, with a particular emphasis on cancer biology and cellular mechanisms."
+        "title": "혹부리영감처럼···\"암세포, 제거 어렵다면 동거할 수 있어야\"",
+        "date": "September 29, 2024",
+        "src": "https://www.hellodd.com/news/articleView.html?idxno=105540",
+        "preview_image": "./assets/images/news/혹부리영감.png",
+        "preview_content": "[인터뷰] 박현우 과학난제 AST암전이연구단장(연세대 교수): 암세포 발생과 전이 현상 설명 'AST 국제학설' 세계 최초로 정립. 암세포 탈부착 조절 기술로 암 환자 사망원인 ‘암전이’ 차단. ​​​​​​​암 제거 아닌 관리 영역으로 '차차세대 항전이제' 개발 선도"
     },
     {
-        "featured": false,
-        "title": "2024 Research Highlights",
-        "date": "December 1, 2024",
-        "src": "",
-        "preview_image": "",
-        "preview_content": "The Park Lab at Yonsei University focuses on cutting-edge research in the fields of Biochemistry and Molecular Biology, with a particular emphasis on cancer biology and cellular mechanisms."
+        "featured": true,
+        "title": "2024년도 이재호 생명과학상 시상식 (2024.06.13.)",
+        "date": "June 16, 2024",
+        "src": "https://biochem.yonsei.ac.kr/biochem/board/board03.do?mode=view&articleNo=191737&article.offset=10&articleLimit=10",
+        "preview_image": "https://biochem.yonsei.ac.kr/_res/editor_image/2024/06/ZJMlSJfdpoEJUnnMROHg.jpg",
+        "preview_content": "지난 2024.06.13(목) 오후 4시, 2024년도 이재호 생명과학상 시상식이 과학관 세미나실 B102에서 진행되었습니다. 이재호 생명과학상은 생화학과 72학번 이재호 동문(현 혜전대학교 명예총장)께서 생화학과의 연구력 향상을 위해 제정하신 상으로, 생화학과 대학원생으로서 생명과학 분야의 우수한 논문을 발표한 학생에게 시상합니다."
     }
 ]

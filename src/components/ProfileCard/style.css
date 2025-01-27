@@ -1,5 +1,5 @@
 .profile-card {
-  width: 9.2rem;
+  width: min(45%, 9.2rem);
 
 }
 

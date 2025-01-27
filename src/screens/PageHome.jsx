@@ -169,7 +169,9 @@ const PageHome = () => {
                                     Hyun Woo Park
                                 </div>
                                 <div>
-                                    Professor of Yonsei University
+                                    PhD Associate Professor<br/>
+                                    Dept. Biochemistry,<br/>
+                                    Yonsei University
                                 </div>
                             </div>
                         </div>
