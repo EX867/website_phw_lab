@@ -1,5 +1,26 @@
 [
     {
+        "index": 53,
+        "featured": true,
+        "html_text": "Huh HD, Sub Y, Kim JH, Lee H, Oh J, Lee DK,..., Jeong J*, Gee HY*, Park HW* (2024).<br/>Cell competition confers anchorage plasticity of disseminated tumor cells<br/><em>bioRxiv.</em> 57(6), 273.",
+        "doi": "2024.11.25.625320"
+    },
+    {
+        "featured": false,
+        "html_text": "Lee DK, Oh J, Lee S, Huh HD, Sub Y, Park HW*, Gee HY* (2024).<br/>Adherent-to-suspension transition promotes melanoma metastatic dissemination<br/><em>bioRxiv.</em> 57(6), 273.",
+        "doi": "10.5483/BMBRep.2024-0018"
+    },
+    {
+        "featured": true,
+        "html_text": "Park JH, Jeon D, Kim J, Pyun WY, Park SY...No KT, Namkung W, Park HW* (2024).<br/>Nutrient availability dictates cancer metabolism-based therapeutic responses of non-oncology drugs<br/><em>Nature Communications.</em> 57(6), 273. In revision",
+        "doi": "-"
+    },
+    {
+        "featured": true,
+        "html_text": "So Yeon Park, Sungeun Ju, Jaehoon Lee, Dong Jin Park… Park HW* (2024).<br/>Golgi-associated TAZ as mediator of inflammatory cytokine secretion in macrophages<br/><em>Science Advances.</em> 2025 Jan 24;11(4): eadq2395",
+        "doi": "10.5483/BMBRep.2024-0018"
+    },
+    {
         "featured": true,
         "html_text": "Huh, H. D., & Park, H. W. (2024).<br/>Emerging paradigms in cancer cell plasticity.<br/><em>BMB reports.</em> 57(6), 273.",
         "doi": "10.5483/BMBRep.2024-0018"

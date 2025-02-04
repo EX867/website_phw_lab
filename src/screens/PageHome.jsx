@@ -119,7 +119,7 @@ const PageHome = () => {
                             src="./assets/images/logo.png"/>
                 </div>*/}
             </div>
-            <div className="content-horizontal-flex gap-20">
+            <div className="content-horizontal-flex gap-11">
                 <div id="desktop-nav-wrapper">
                     <div id="home-nav">
                         <FollowingNavButton label="Research" src="#content-research"/>
@@ -133,7 +133,7 @@ const PageHome = () => {
                 <div id="content">
                     <section id="content-research">
                         <h2>Research</h2>
-                        <div className="content-horizontal-flex gap-6">
+                        <div className="content-horizontal-flex gap-8">
                             <div>
                                 <p>
                                     The Hyun Woo (Henry) Park lab is interested in understanding 
@@ -150,7 +150,7 @@ const PageHome = () => {
                                     therapies to significantly reduce cancer death rate.
                                 </p>
                                 <br/>
-                                <h3>Research Projects</h3>
+                                <h2>Research Projects</h2>
                                 <ul>
                                     <li>Cancer cell plasticity and metastasis</li>
                                     <li>Cancer metabolism and therapeutic responses</li>
@@ -166,7 +166,7 @@ const PageHome = () => {
                                     src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
                                 <div className="text-yonsei font-bold">
-                                    Hyun Woo Park
+                                    Hyun Woo Park, PhD
                                 </div>
                                 <div>
                                     PhD Associate Professor<br/>
@@ -215,7 +215,7 @@ const PageHome = () => {
                             <div>
                                 <h2 className="text-text_black">Hyun Woo (Henry) Park, PhD</h2>
                                 <div className="text-small italic -mt-2">Associate Professor, Department of Biochemistry, Yonsei University</div>
-                                <ul>
+                                <ul className="leading-[130%]">
                                     <li>Cancer biologist Hyun Woo (Henry) Park investigates cancer cell plasticity in metastatic cascade and anti-metastatic drug development</li>
                                     <li>Director, AST Metastasis Research Center</li>
                                     <li>SUHF Fellow</li>

@@ -9,9 +9,9 @@
 	html {
 		color: theme("colors.text_black");
         font-family: "DM Sans", "Noto Sans KR", sans-serif;
-		font-size: 17px;
+		font-size: 17.3px;
 		font-weight: 400;
-        letter-spacing: -0.01em;
+        letter-spacing: -0.015em;
         
         scroll-behavior: smooth;
     }
@@ -34,7 +34,6 @@
     }
 
     p {
-        text-align: justify;
         line-height: 140%;
         margin-bottom: 1em;
     }

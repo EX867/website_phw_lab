@@ -16,7 +16,7 @@ const Module = () => {
             <div className="body-container">
                 <div className="body">
                     <div className="header">
-                        <a href="/" className="max-h-full shrink-0">
+                        <a href="/" className="max-h-full">
                             <img src="./assets/images/header1.png" alt="Yonsei University" className="size-full"></img>
                         </a>
                         <a href="/" className="max-h-full">

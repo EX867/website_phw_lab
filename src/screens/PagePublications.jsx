@@ -19,7 +19,7 @@ const Module = () => {
             <div className="back-button-bar">
                 <a className="back-button" href="/">Back to Home</a>
             </div>
-            <div className="content-horizontal-flex gap-20">
+            <div className="content-horizontal-flex gap-10">
                 <div id="desktop-nav-wrapper">
                     <div id="other-nav">
                         <a className="other-nav-home" href="/">The TCR Lab</a>
