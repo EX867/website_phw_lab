@@ -49,12 +49,12 @@
 }
 
 .root-container .carousel-container {
-  max-width: 40vw;
+  max-width: min(36vw, calc(1200px * 0.78 - 18rem));
 }
 
 .carousel-container .carousel-item {
-  width: 40vw;
-  height: 22vw;
+  width: 100%;
+  height: 100%;
 }
 
 .carousel-container .slick-dots {
@@ -72,12 +72,12 @@
 @media screen and (max-width: 799px) {
 
   .root-container .carousel-container {
-    max-width: 80vw;
+    max-width: 72vw;
   }
   
   .carousel-container .carousel-item {
-    width: 80vw;
-    height: 44vw;
+    width: 72vw;
+    height: 40vw;
   }
 }
 
@@ -89,14 +89,20 @@
 
 .root-container .header {
   display: flex;
+  
   gap: min(1.5rem, 5%);
 
   padding: 1.5rem 0;
   height: 7.5rem;
 }
 
+.header a:first-child {
+  display: flex;
+  align-items: flex-start; /* new */
+}
+
 .root-container .header img{
-  align-items: flex-start;
+  height: 100%;
 }
 
 @media screen and (min-width: 800px) {
@@ -265,6 +271,7 @@
 
 .root-container .footer-wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
 
   background-color: var(--color-yonsei);
@@ -278,6 +285,7 @@
 
   color: #ffffff;
 
+  width: 100%;
   max-width: 1200px;
   padding: 2rem 2rem 15rem 2rem;
 }
