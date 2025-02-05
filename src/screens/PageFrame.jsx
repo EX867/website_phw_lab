@@ -22,10 +22,10 @@ const Module = () => {
                 <div className="body">
                     <div className="header">
                         <a href="/">
-                            <img src="./assets/images/header1.png" alt="Yonsei University" className="size-full"></img>
+                            <img src="./assets/images/header1.png" alt="Yonsei University"></img>
                         </a>
                         <a href="/">
-                            <img src="./assets/images/header2.png" alt="research visualization" className="size-full"></img>
+                            <img src="./assets/images/header2.png" alt="research visualization"></img>
                         </a>
                     </div>
 
