@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
+import Slider from "react-slick";
 
 import MobileNavBar from "components/MobileNavBar/MobileNavBar";
 import FollowingNavButton from "../components/FollowingNavButton/FollowingNavButton";
 import VerticalNavButton from "../components/VerticalNavButton/VerticalNavButton";
-//import Carousel from "../../components/Carousel/Carousel";
 
 import ProfileCard from "../components/ProfileCard/ProfileCard";
 import ArticlePreview from "../components/ArticlePreview/ArticlePreview";
@@ -14,6 +14,9 @@ import CopyLink from "../components/CopyLink/CopyLink";
 import data_news from "../content/news.json";
 import data_people from "../content/people.json";
 import data_publications from "../content/publications.json";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function debounce(func, wait) {
     let timeout;
@@ -98,6 +101,23 @@ const PageHome = () => {
         };
     }, []);
 
+    const slider = React.useRef(null);
+    const slider_settings = {
+        dots: true,
+        infinite: false,
+        speed: 500,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        appendDots: dots => (
+            <div>
+                <button className="carousel-button" onClick={() => slider?.current?.slickPrev()}><span className="material-icons">chevron_left</span></button>
+                    <ul className="inline" style={{ margin: "0", padding: "0 1rem" }}> {dots} </ul>
+                <button className="carousel-button" onClick={() => slider?.current?.slickNext()}><span className="material-icons">chevron_right</span></button>
+            </div>
+        ),
+      };
+
     return (
         <div>
             <MobileNavBar>
@@ -134,7 +154,7 @@ const PageHome = () => {
                     <section id="content-research">
                         <h2>Research</h2>
                         <div className="content-horizontal-flex gap-8">
-                            <div>
+                            <div className="w-full">
                                 <p>
                                     The Hyun Woo (Henry) Park lab is interested in understanding 
                                     the plasticity of cancer cells during metastasis. 
@@ -157,7 +177,27 @@ const PageHome = () => {
                                     <li>Immuno-oncology and inflammatory diseases</li>
                                     <li>Next generation anti-cancer drug development </li>
                                 </ul>
-                                {/*<ContentButton label="More About Our Research" href="/research"/>*/}
+                                <br/><br/><br/>
+                                <div className="carousel-container">
+                                    <Slider ref={slider} {...slider_settings}>
+                                        <div className="carousel-item">
+                                            <img alt="people"
+                                                src="./assets/images/home1.jpg"/>
+                                        </div>
+                                        <div className="carousel-item">
+                                            <img alt="people"
+                                                src="./assets/images/home2.jpg"/>
+                                        </div>
+                                        <div className="carousel-item">
+                                            <iframe src="https://www.youtube-nocookie.com/embed/3ihLLwSEJlI?si=d-aQuNS1EjGAY40o"
+                                                    title="YouTube video player"
+                                                    frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
+                                        </div>
+                                    </Slider>
+                                    <br/><br/>
+                                </div>
                             </div>
 
                             <div className="professor-small">
@@ -175,13 +215,6 @@ const PageHome = () => {
                                 </div>
                             </div>
                         </div>
-                        <br/><br/>
-                        <iframe width="560" height="315"
-                                src="https://www.youtube-nocookie.com/embed/3ihLLwSEJlI?si=d-aQuNS1EjGAY40o"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
                     </section>
 
                     <section id="content-news">

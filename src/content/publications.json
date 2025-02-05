@@ -2,247 +2,475 @@
     {
         "index": 53,
         "featured": true,
-        "html_text": "Huh HD, Sub Y, Kim JH, Lee H, Oh J, Lee DK,..., Jeong J*, Gee HY*, Park HW* (2024).<br/>Cell competition confers anchorage plasticity of disseminated tumor cells<br/><em>bioRxiv.</em> 57(6), 273.",
-        "doi": "2024.11.25.625320"
+        "author": "Huh HD, Sub Y, Kim JH, Lee H, Oh J, Lee DK,..., Jeong J, Gee HY, Park HW",
+        "title": "Cell competition confers anchorage plasticity of disseminated tumor cells.",
+        "journal": "bioRxiv.",
+        "publication_detail": "2024.11.25.625320"
     },
     {
+        "index": 52,
         "featured": false,
-        "html_text": "Lee DK, Oh J, Lee S, Huh HD, Sub Y, Park HW*, Gee HY* (2024).<br/>Adherent-to-suspension transition promotes melanoma metastatic dissemination<br/><em>bioRxiv.</em> 57(6), 273.",
+        "author": "Lee DK, Oh J, Lee S, Huh HD, Sub Y, Park HW, Gee HY",
+        "title": "Adherent-to-suspension transition promotes melanoma metastatic dissemination.",
+        "journal": "bioRxiv.",
+        "publication_detail": "2024.11.26.625571"
+    },
+    {
+        "index": 51,
+        "featured": true,
+        "author": "Park JH, Jeon D, Kim J, Pyun WY, Park SY...No KT, Namkung W, Park HW.",
+        "title": "Nutrient availability dictates cancer metabolism-based therapeutic responses of non-oncology drugs.",
+        "journal": "Nature Communications.",
+        "publication_detail": "In revision"
+    },
+    {
+        "index": 50,
+        "featured": true,
+        "author": "Park SY, Ju S, Lee J, Kim HR, Sub Y, Park DJ, Park S, Kwon D, Kang HG, Shin JE, Kim DH, Paik JE, Cho SC, Shim H, Kim YJ, Guan KL, Chun KH, Choi J, Ha SJ, Gee HY, Roe JS, Lee HW, Park SY, Park HW.",
+        "title": "Noncanonical role of Golgi-associated macrophage TAZ in chronic inflammation and tumorigenesis.",
+        "journal": "Science Advances.",
+        "publication_detail": "2025 Jan 24;11(4):eadq2395.",
         "doi": "10.5483/BMBRep.2024-0018"
     },
     {
-        "featured": true,
-        "html_text": "Park JH, Jeon D, Kim J, Pyun WY, Park SY...No KT, Namkung W, Park HW* (2024).<br/>Nutrient availability dictates cancer metabolism-based therapeutic responses of non-oncology drugs<br/><em>Nature Communications.</em> 57(6), 273. In revision",
-        "doi": "-"
-    },
-    {
-        "featured": true,
-        "html_text": "So Yeon Park, Sungeun Ju, Jaehoon Lee, Dong Jin Park… Park HW* (2024).<br/>Golgi-associated TAZ as mediator of inflammatory cytokine secretion in macrophages<br/><em>Science Advances.</em> 2025 Jan 24;11(4): eadq2395",
+        "index": 49,
+        "featured": false,
+        "author": "Huh HD, Park HW.",
+        "title": "Emerging paradigms in cancer cell plasticity.",
+        "journal": "BMB Reports.",
+        "publication_detail": "2024 Jun;57(6):273-280.",
         "doi": "10.5483/BMBRep.2024-0018"
     },
     {
+        "index": 48,
         "featured": true,
-        "html_text": "Huh, H. D., & Park, H. W. (2024).<br/>Emerging paradigms in cancer cell plasticity.<br/><em>BMB reports.</em> 57(6), 273.",
-        "doi": "10.5483/BMBRep.2024-0018"
+        "author": "Song Y, Na H, Lee SE, Kim YM, Moon J, Nam TW, Ji Y, Jin Y, Park JH, Cho SC, Lee J, Hwang D, Ha SJ, Park HW, Kim JB, Lee HW.",
+        "title": "Dysfunctional adipocytes promote tumor progression through YAP/TAZ-dependent cancer-associated adipocyte transformation.",
+        "journal": "Nature Communications.",
+        "publication_detail": "2024 May 14;15(1):4052.",
+        "doi": "10.1038/s41467-024-48179-3"
     },
     {
+        "index": 47,
         "featured": true,
-        "html_text": "Lee, J. Y., Huh, H. D., Lee, D. K., Park, S. Y., Shin, J. E., Gee, H. Y., & Park, H. W. (2024).<br/>Reprogramming anchorage dependency to develop cell lines for recombinant protein expression.<br/><em>Biotechnology Journal.</em> 19(5), 2400104.",
+        "author": "Lee JY, Huh HD, Lee DK, Park SY, Shin JE, Gee HY, Park HW.",
+        "title": "Reprogramming anchorage dependency to develop cell lines for recombinant protein expression.",
+        "journal": "Biotechnology Journal.",
+        "publication_detail": "2024 May;19(5):e2400104.",
         "doi": "10.1002/biot.202400104"
     },
     {
+        "index": 46,
         "featured": true,
-        "html_text": "Shin, J. E., Kim, S. H., Kong, M., Kim, H. R., Yoon, S., Kee, K. M., ... & Park, H. W. (2023).<br/>Targeting FLT3-TAZ signaling to suppress drug resistance in blast phase chronic myeloid leukemia.<br/><em>Molecular cancer.</em> 22(1), 177.",
+        "author": "Shin JE, Kim SH, Kong M, Kim HR, Yoon S, Kee KM, Kim JA, Kim DH, Park SY, Park JH, Kim H, No KT, Lee HW, Gee HY, Hong S, Guan KL, Roe JS, Lee H, Kim DW, Park HW.",
+        "title": "Targeting FLT3-TAZ signaling to suppress drug resistance in blast phase chronic myeloid leukemia.",
+        "journal": "Molecular Cancer.",
+        "publication_detail": "2023 Nov 6;22(1):177.",
         "doi": "10.1186/s12943-023-01837-4"
     },
     {
+        "index": 45,
         "featured": true,
-        "html_text": "Huh, H. D., Sub, Y., Oh, J., Kim, Y. E., Lee, J. Y., Kim, H. R., ... & Park, H. W. (2023).<br/>Reprogramming anchorage dependency by adherent-to-suspension transition promotes metastatic dissemination.<br/><em>Molecular cancer.</em> 22(1), 63.",
+        "author": "Kim T, Han HS, Yang K, Kim YM, Nam K, Park KH, Choi SY, Park HW, Choi KY, Roh YH.",
+        "title": "Nanoengineered Polymeric RNA Nanoparticles for Controlled Biodistribution and Efficient Targeted Cancer Therapy.",
+        "journal": "ACS Nano.",
+        "publication_detail": "2024 Mar 19;18(11):7972-7988.",
+        "doi": "10.1021/acsnano.3c10732"
+    },
+    {
+        "index": 44,
+        "featured": true,
+        "author": "Huh HD, Sub Y, Oh J, Kim YE, Lee JY, Kim HR, Lee S, Lee H, Pak S, Amos SE, Vahala D, Park JH, Shin JE, Park SY, Kim HS, Roh YH, Lee HW, Guan KL, Choi YS, Jeong J, Choi J, Roe JS, Gee HY, Park HW.",
+        "title": "Reprogramming anchorage dependency by adherent-to-suspension transition promotes metastatic dissemination.",
+        "journal": "Molecular Cancer.",
+        "publication_detail": "2023 Mar 30;22(1):63.",
         "doi": "10.1186/s12943-023-01753-7"
     },
     {
+        "index": 43,
         "featured": true,
-        "html_text": "Yoo, H. B., Moon, J. W., Kim, H. R., Lee, H. S., Miyabayashi, K., Park, C. H., ... & Roe, J. S. (2023).<br/>A TEAD2-driven endothelial-like program shapes basal-like differentiation and metastasis of pancreatic cancer.<br/><em>Gastroenterology.</em> 165(1), 133-148.",
+        "author": "Yoo HB, Moon JW, Kim HR, Lee HS, Miyabayashi K, Park CH, Ge S, Zhang A, Tae YK, Sub Y, Park HW, Gee HY, Notta F, Tuveson DA, Bang S, Kim MY, Roe JS.",
+        "title": "A TEAD2-Driven Endothelial-Like Program Shapes Basal-Like Differentiation and Metastasis of Pancreatic Cancer.",
+        "journal": "Gastroenterology.",
+        "publication_detail": "2023 Jul;165(1):133-148.e17.",
         "doi": "10.1053/j.gastro.2023.02.049"
     },
     {
+        "index": 42,
         "featured": false,
-        "html_text": "Kang, S., Kim, J., Park, A., Koh, M., Shin, W., Park, G., ... & Park, B. (2023).<br/>TRIM40 is a pathogenic driver of inflammatory bowel disease subverting intestinal barrier integrity.<br/><em>Nature communications.</em> 14(1), 700.",
+        "author": "Kang S, Kim J, Park A, Koh M, Shin W, Park G, Lee TA, Kim HJ, Han H, Kim Y, Choi MK, Park JH, Lee E, Cho HS, Park HW, Cheon JH, Lee S, Park B.",
+        "title": "TRIM40 is a pathogenic driver of inflammatory bowel disease subverting intestinal barrier integrity.",
+        "journal": "Nature Communications.",
+        "publication_detail": "2023 Feb 9;14(1):700.",
         "doi": "10.1038/s41467-023-36424-0"
     },
     {
+        "index": 41,
         "featured": false,
-        "html_text": "Lee, J. H., Shin, J. E., Kim, W., Jeong, P., Kim, M. J., Oh, S. J., ... & Kim, Y. C. (2022).<br/>Discovery of indirubin-3′-aminooxy-acetamide derivatives as potent and selective FLT3/D835Y mutant kinase inhibitors for acute myeloid leukemia.<br/><em>European Journal of Medicinal Chemistry.</em> 237, 114356.",
+        "author": "Lee JH, Shin JE, Kim W, Jeong P, Kim MJ, Oh SJ, Lee HJ, Park HW, Han SY, Kim YC.",
+        "title": "Discovery of indirubin-3'-aminooxy-acetamide derivatives as potent and selective FLT3/D835Y mutant kinase inhibitors for acute myeloid leukemia.",
+        "journal": "European Journal of Medicinal Chemistry.",
+        "publication_detail": "2022 Jul 5;237:114356.",
         "doi": "10.1016/j.ejmech.2022.114356"
     },
     {
+        "index": 40,
         "featured": false,
-        "html_text": "Kim, J.; Lim, H.; Moon, S.; Cho, S.Y.; Kim, M.; Park, J.H.; Park, H.W.; No, K.T.<br/>Hot Spot Analysis of YAP-TEAD Protein-Protein Interaction Using the Fragment Molecular Orbital Method and Its Application for Inhibitor Discovery.<br/><em>Cancers.</em> 2021, 13, 4246.",
+        "author": "Kim J, Lim H, Moon S, Cho SY, Kim M, Park JH, Park HW, No KT.",
+        "title": "Hot Spot Analysis of YAP-TEAD Protein-Protein Interaction Using the Fragment Molecular Orbital Method and Its Application for Inhibitor Discovery.",
+        "journal": "Cancers (Basel).",
+        "publication_detail": "2021 Aug 23;13(16):4246.",
         "doi": "10.3390/cancers13164246"
     },
     {
+        "index": 39,
         "featured": false,
-        "html_text": "Park, J. H., Pyun, W. Y., & Park, H. W. (2020).<br/>Cancer metabolism: phenotype, signaling and therapeutic targets.<br/><em>Cells.</em> 9(10), 2308.",
+        "author": "Park JH, Pyun WY, Park HW.",
+        "title": "Cancer Metabolism: Phenotype, Signaling and Therapeutic Targets.",
+        "journal": "Cells.",
+        "publication_detail": "2020 Oct 16;9(10):2308.",
         "doi": "10.3390/cells9102308"
     },
     {
+        "index": 38,
         "featured": false,
-        "html_text": "Jeong, P., Moon, Y., Lee, J. H., Lee, S. D., Park, J., Lee, J., ... & Kim, Y. C. (2020).<br/>Discovery of orally active indirubin-3′-oxime derivatives as potent type 1 FLT3 inhibitors for acute myeloid leukemia.<br/><em>European Journal of Medicinal Chemistry.</em> 195, 112205.",
+        "author": "Jeong P, Moon Y, Lee JH, Lee SD, Park J, Lee J, Kim J, Lee HJ, Kim NY, Choi J, Heo JD, Shin JE, Park HW, Kim YG, Han SY, Kim YC.",
+        "title": "Discovery of orally active indirubin-3'-oxime derivatives as potent type 1 FLT3 inhibitors for acute myeloid leukemia.",
+        "journal": "European Journal of Medicinal Chemistry.",
+        "publication_detail": "2020 Jun 1;195:112205.",
         "doi": "10.1016/j.ejmech.2020.112205"
     },
     {
+        "index": 37,
         "featured": false,
-        "html_text": "Kim, E., Kang, J. G., Kang, M. J., Park, J. H., Kim, Y. J., Kweon, T. H., ... & Cho, J. W. (2020).<br/>O-GlcNAcylation on LATS2 disrupts the Hippo pathway by inhibiting its activity.<br/><em>Proceedings of the National Academy of Sciences.</em> 117(25), 14259-14269.",
+        "author": "Kim E, Kang JG, Kang MJ, Park JH, Kim YJ, Kweon TH, Lee HW, Jho EH, Lee YH, Kim SI, Yi EC, Park HW, Yang WH, Cho JW.",
+        "title": "O-GlcNAcylation on LATS2 disrupts the Hippo pathway by inhibiting its activity.",
+        "journal": "PNAS.",
+        "publication_detail": "2020 Jun 23;117(25):14259-14269.",
         "doi": "10.1073/pnas.1913469117"
     },
     {
+        "index": 36,
         "featured": false,
-        "html_text": "Hepburn, M. S., Wijesinghe, P., Major, L. G., Li, J., Mowla, A., Astell, C., ... & Kennedy, B. F. (2020).<br/>Three-dimensional imaging of cell and extracellular matrix elasticity using quantitative micro-elastography.<br/><em>Biomedical Optics Express.</em> 11(2), 867-884.",
+        "author": "Hepburn MS, Wijesinghe P, Major LG, Li J, Mowla A, Astell C, Park HW, Hwang Y, Choi YS, Kennedy BF.",
+        "title": "Three-dimensional imaging of cell and extracellular matrix elasticity using quantitative micro-elastography.",
+        "journal": "Biomedical Optics Express.",
+        "publication_detail": "2020 Jan 14;11(2):867-884.",
         "doi": "10.1364/BOE.383419"
     },
     {
+        "index": 35,
         "featured": false,
-        "html_text": "Bae, W., Park, J. H., Lee, M. H., Park, H. W., & Koo, H. S. (2020).<br/>Hypersensitivity to DNA double‐strand breaks associated with PARG deficiency is suppressed by exo‐1 and polq‐1 mutations in Caenorhabditis elegans.<br/><em>The FEBS journal.</em> 287(6), 1101-1115.",
+        "author": "Major LG, Holle AW, Young JL, Hepburn MS, Jeong K, Chin IL, Sanderson RW, Jeong JH, Aman ZM, Kennedy BF, Hwang Y, Han DW, Park HW, Guan KL, Spatz JP, Choi YS.",
+        "title": "Volume Adaptation Controls Stem Cell Mechanotransduction.",
+        "journal": "ACS Applied Materials & Interfaces Journal.",
+        "publication_detail": "2019 Dec 11;11(49):45520-45530.",
+        "doi": "10.1021/acsami.9b19770"
+    },
+    {
+        "index": 34,
+        "featured": false,
+        "author": "Bae W, Park JH, Lee MH, Park HW, Koo HS.",
+        "title": "Hypersensitivity to DNA double-strand breaks associated with PARG deficiency is suppressed by exo-1 and polq-1 mutations in Caenorhabditis elegans.",
+        "journal": "The FEBS Journal.",
+        "publication_detail": "2020 Mar;287(6):1101-1115.",
         "doi": "10.1111/febs.15082"
     },
     {
+        "index": 33,
         "featured": false,
-        "html_text": "Kim, Y., Jun, I., Shin, D. H., Yoon, J. G., Piao, H., Jung, J., ... & Lee, M. G. (2020).<br/>Regulation of CFTR bicarbonate channel activity by WNK1: implications for pancreatitis and CFTR-related disorders.<br/><em>Cellular and Molecular Gastroenterology and Hepatology.</em> 9(1), 79-103.",
+        "author": "Kim Y, Jun I, Shin DH, Yoon JG, Piao H, Jung J, Park HW, Cheng MH, Bahar I, Whitcomb DC, Lee MG.",
+        "title": "Regulation of CFTR Bicarbonate Channel Activity by WNK1: Implications for Pancreatitis and CFTR-Related Disorders.",
+        "journal": "Cellular and Molecular Gastroenterology and Hepatology.",
+        "publication_detail": "2020;9(1):79-103.",
         "doi": "10.1016/j.jcmgh.2019.09.003"
     },
     {
+        "index": 32,
         "featured": false,
-        "html_text": "Lee, I. Y., Lim, J. M., Cho, H., Kim, E., Kim, Y., Oh, H. K., ... & Choi, E. J. (2019).<br/>MST1 negatively regulates TNFα-induced NF-κB signaling through modulating LUBAC activity.<br/><em>Molecular cell.</em> 73(6), 1138-1149.",
+        "author": "Lee IY, Lim JM, Cho H, Kim E, Kim Y, Oh HK, Yang WS, Roh KH, Park HW, Mo JS, Yoon JH, Song HK, Choi EJ.",
+        "title": "MST1 Negatively Regulates TNFα-Induced NF-κB Signaling through Modulating LUBAC Activity.",
+        "journal": "Molecules and Cells.",
+        "publication_detail": "2019 Mar 21;73(6):1138-1149.e6.",
         "doi": "10.1016/j.molcel.2019.01.022"
     },
     {
+        "index": 31,
         "featured": false,
-        "html_text": "Huh, H. D., Kim, D. H., Jeong, H. S., & Park, H. W. (2019).<br/>Regulation of TEAD transcription factors in cancer biology.<br/><em>Cells.</em> 8(6), 600.",
+        "author": "Huh HD, Kim DH, Jeong HS, Park HW.",
+        "title": "Regulation of TEAD Transcription Factors in Cancer Biology.",
+        "journal": "Cells.",
+        "publication_detail": "2019 Jun 17;8(6):600. ",
         "doi": "10.3390/cells8060600"
     },
     {
+        "index": 30,
         "featured": false,
-        "html_text": "Meng, Z., Qiu, Y., Lin, K. C., Kumar, A., Placone, J. K., Fang, C., ... & Guan, K. L. (2018).<br/>RAP2 mediates mechanoresponses of the Hippo pathway.<br/><em>Nature.</em> 560(7720), 655-660.",
+        "author": "Meng Z, Qiu Y, Lin KC, Kumar A, Placone JK, Fang C, Wang KC, Lu S, Pan M, Hong AW, Moroishi T, Luo M, Plouffe SW, Diao Y, Ye Z, Park HW, Wang X, Yu FX, Chien S, Wang CY, Ren B, Engler AJ, Guan KL.",
+        "title": "RAP2 mediates mechanoresponses of the Hippo pathway.",
+        "journal": "Nature.",
+        "publication_detail": "2018 Aug;560(7720):655-660.",
         "doi": "10.1038/s41586-018-0444-0"
     },
     {
+        "index": 29,
         "featured": false,
-        "html_text": "Park, J. H., Shin, J. E., & Park, H. W. (2018).<br/>The role of hippo pathway in cancer stem cell biology.<br/><em>Molecules and cells.</em> 41(2), 83-92.",
+        "author": "Moon S, Yeon Park S, Woo Park H.",
+        "title": "Regulation of the Hippo pathway in cancer biology.",
+        "journal": "Cellular and Molecular Life Sciences.",
+        "publication_detail": "2018 Jul;75(13):2303-2319.",
+        "doi": "10.1007/s00018-018-2804-1."
+    },
+    {
+        "index": 28,
+        "featured": false,
+        "author": "Park JH, Shin JE, Park HW.",
+        "title": "The Role of Hippo Pathway in Cancer Stem Cell Biology.",
+        "journal": "Molecules and Cells.",
+        "publication_detail": "2018 Feb 28;41(2):83-92.",
         "doi": "10.14348/molcells.2018.2242"
     },
     {
+        "index": 27,
         "featured": false,
-        "html_text": "Lin, K. C., Park, H. W., & Guan, K. L. (2017).<br/>Regulation of the Hippo pathway transcription factor TEAD.<br/><em>Trends in biochemical sciences.</em> 42(11), 862-872.",
+        "author": "Lin KC, Park HW, Guan KL.",
+        "title": "Regulation of the Hippo Pathway Transcription Factor TEAD.",
+        "journal": "Trends in Biochemical Sciences.",
+        "publication_detail": "2017 Nov;42(11):862-872.",
         "doi": "10.1016/j.tibs.2017.09.003"
     },
     {
+        "index": 26,
         "featured": false,
-        "html_text": "Lin, K., Moroishi, T., Meng, Z. et al.<br/>Regulation of Hippo pathway transcription factor TEAD by p38 MAPK-induced cytoplasmic translocation.<br/><em>Nature Cell Biology.</em> 19, 996–1002 (2017).",
+        "author": "Lin KC, Moroishi T, Meng Z, Jeong HS, Plouffe SW, Sekido Y, Han J, Park HW, Guan KL.",
+        "title": "Regulation of Hippo pathway transcription factor TEAD by p38 MAPK-induced cytoplasmic translocation.",
+        "journal": "Nature Cell Biology.",
+        "publication_detail": "2017 Jul 28;19(8):996-1002.",
         "doi": "10.1038/ncb3581"
     },
     {
+        "index": 25,
         "featured": false,
-        "html_text": "Strnadel, J., Choi, S., Fujimura, K., Wang, H., Zhang, W., Wyse, M., ... & Klemke, R. L. (2017).<br/>eIF5A-PEAK1 signaling regulates YAP1/TAZ protein expression and pancreatic cancer cell growth.<br/><em>Cancer research.</em> 77(8), 1997-2007.",
+        "author": "Strnadel J, Choi S, Fujimura K, Wang H, Zhang W, Wyse M, Wright T, Gross E, Peinado C, Park HW, Bui J, Kelber J, Bouvet M, Guan KL, Klemke RL.",
+        "title": "eIF5A-PEAK1 Signaling Regulates YAP1/TAZ Protein Expression and Pancreatic Cancer Cell Growth.",
+        "journal": "Cancer Research.",
+        "publication_detail": "2017 Apr 15;77(8):1997-2007.",
         "doi": "10.1158/0008-5472.CAN-16-2594"
     },
     {
+        "index": 24,
         "featured": false,
-        "html_text": "Meng, Z., Moroishi, T., Mottier-Pavie, V., Plouffe, S. W., Hansen, C. G., Hong, A. W., ... & Guan, K. L. (2015).<br/>MAP4K family kinases act in parallel to MST1/2 to activate LATS1/2 in the Hippo pathway.<br/><em>Nature communications.</em> 6(1), 8357.",
+        "author": "Meng Z, Moroishi T, Mottier-Pavie V, Plouffe SW, Hansen CG, Hong AW, Park HW, Mo JS, Lu W, Lu S, Flores F, Yu FX, Halder G, Guan KL.",
+        "title": "MAP4K family kinases act in parallel to MST1/2 to activate LATS1/2 in the Hippo pathway.",
+        "journal": "Nature Communications.",
+        "publication_detail": "2015 Oct 5;6:8357.",
         "doi": "10.1038/ncomms9357"
     },
     {
+        "index": 23,
         "featured": false,
-        "html_text": "Park, H. W., Kim, Y. C., Yu, B. O., Moroishi, T., Mo, J. S., Plouffe, S. W., ... & Guan, K. L. (2015).<br/>Alternative Wnt signaling activates YAP/TAZ.<br/><em>Cell.</em> 162(4), 780-794.",
+        "author": "Park HW, Kim YC, Yu B, Moroishi T, Mo JS, Plouffe SW, Meng Z, Lin KC, Yu FX, Alexander CM, Wang CY, Guan KL.",
+        "title": "Alternative Wnt Signaling Activates YAP/TAZ.",
+        "journal": "Cell.",
+        "publication_detail": "2015 Aug 13;162(4):780-94.",
         "doi": "10.1016/j.cell.2015.07.013"
     },
     {
+        "index": 22,
         "featured": false,
-        "html_text": "Moroishi, T., Park, H. W., Qin, B., Chen, Q., Meng, Z., Plouffe, S. W., ... & Guan, K. L. (2015).<br/>A YAP/TAZ-induced feedback mechanism regulates Hippo pathway homeostasis.<br/><em>Genes & development.</em> 29(12), 1271-1284.",
+        "author": "Moroishi T, Park HW, Qin B, Chen Q, Meng Z, Plouffe SW, Taniguchi K, Yu FX, Karin M, Pan D, Guan KL.",
+        "title": "A YAP/TAZ-induced feedback mechanism regulates Hippo pathway homeostasis.",
+        "journal": "Genes & Development.",
+        "publication_detail": "2015 Jun 15;29(12):1271-84.",
         "doi": "10.1101/gad.262816.115"
     },
     {
+        "index": 21,
         "featured": false,
-        "html_text": "Mo, JS., Meng, Z., Kim, Y. et al. Cellular energy stress induces AMPK-mediated regulation of YAP and the Hippo pathway.<br/><br/><em>Nature Cell Biology.</em> 17(4), 500–510 (2015).",
+        "author": "Mo JS, Meng Z, Kim YC, Park HW, Hansen CG, Kim S, Lim DS, Guan KL.",
+        "title": "Cellular energy stress induces AMPK-mediated regulation of YAP and the Hippo pathway.",
+        "journal": "Nature Cell Biology.",
+        "publication_detail": "2015 Apr;17(4):500-10.",
         "doi": "10.1038/ncb3111"
     },
     {
+        "index": 20,
         "featured": false,
-        "html_text": "Jewell JL, Kim YC, Russell RC, Yu F, Park HW, Plouffe SW, Tagliabracci VS, Guan KL.<br/>Differential regulation of mTORC1 by leucine and glutamine.<br/><em>Science.</em> (2015) Jan 9;347(6218):194-8.",
+        "author": "Jewell JL, Kim YC, Russell RC, Yu FX, Park HW, Plouffe SW, Tagliabracci VS, Guan KL.",
+        "title": "Metabolism. Differential regulation of mTORC1 by leucine and glutamine.",
+        "journal": "Science.",
+        "publication_detail": "2015 Jan 9;347(6218):194-8.",
         "doi": "10.1126/science.1259472"
     },
     {
+        "index": 19,
         "featured": false,
-        "html_text": "Kim, Y. C., Park, H. W., Sciarretta, S., Mo, J. S., Jewell, J. L., Russell, R. C., ... & Guan, K. L. (2014).<br/>Rag GTPases are cardioprotective by regulating lysosomal function.<br/><em>Nature communications.</em> 5(1), 4241.",
+        "author": "Kim YC, Park HW, Sciarretta S, Mo JS, Jewell JL, Russell RC, Wu X, Sadoshima J, Guan KL.",
+        "title": "Rag GTPases are cardioprotective by regulating lysosomal function.",
+        "journal": "Nature Communications.",
+        "publication_detail": "2014 Jul 1;5:4241.",
         "doi": "10.1038/ncomms5241"
     },
     {
+        "index": 18,
         "featured": false,
-        "html_text": "LaRusch J, Jung J, General IJ, Lewis MD, Park HW, et al. (2014)<br/>Mechanisms of CFTR Functional Variants That Impair Regulated Bicarbonate Permeation and Increase Risk for Pancreatitis but Not for Cystic Fibrosis.<br/><em>PLoS Genet.</em> 10(7): e1004376.",
+        "author": "LaRusch J, Jung J, General IJ, Lewis MD, Park HW, Brand RE, Gelrud A, Anderson MA, Banks PA, Conwell D, Lawrence C, Romagnuolo J, Baillie J, Alkaade S, Cote G, Gardner TB, Amann ST, Slivka A, Sandhu B, Aloe A, Kienholz ML, Yadav D, Barmada MM, Bahar I, Lee MG, Whitcomb DC; North American Pancreatitis Study Group.",
+        "title": "Mechanisms of CFTR functional variants that impair regulated bicarbonate permeation and increase risk for pancreatitis but not for cystic fibrosis.",
+        "journal": "PLOS Genetics.",
+        "publication_detail": "2014 Jul 17;10(7):e1004376.",
         "doi": "10.1371/journal.pgen.1004376"
     },
     {
+        "index": 17,
         "featured": false,
-        "html_text": "Mo, J. S., Park, H. W., & Guan, K. L. (2014).<br/>The Hippo signaling pathway in stem cell biology and cancer.<br/><em>EMBO reports.</em> 15(6), 642-656.",
+        "author": "Mo JS, Park HW, Guan KL.",
+        "title": "The Hippo signaling pathway in stem cell biology and cancer.",
+        "journal": "EMBO reports.",
+        "publication_detail": "2014 Jun;15(6):642-56.",
         "doi": "10.15252/embr.201438638"
     },
     {
+        "index": 16,
         "featured": false,
-        "html_text": "Chung, W. Y., Park, H. W., Han, J. W., Lee, M. G., & Kim, J. Y. (2013).<br/>WNK4 inhibits plasma membrane targeting of NCC through regulation of syntaxin13 SNARE formation.<br/><em>Cellular Signalling.</em> 25(12), 2469-2477.",
+        "author": "Chung WY, Park HW, Han JW, Lee MG, Kim JY.",
+        "title": "WNK4 inhibits plasma membrane targeting of NCC through regulation of syntaxin13 SNARE formation.",
+        "journal": "Cell Signal.",
+        "publication_detail": "2013 Dec;25(12):2469-77.",
         "doi": "10.1016/j.cellsig.2013.08.006"
     },
     {
+        "index": 15,
         "featured": false,
-        "html_text": "Park, H. W., & Guan, K. L. (2013).<br/>Regulation of the Hippo pathway and implications for anticancer drug development.<br/><em>Trends in pharmacological sciences.</em> 34(10), 581-589.",
+        "author": "Park HW, Guan KL.",
+        "title": "Regulation of the Hippo pathway and implications for anticancer drug development.",
+        "journal": "Trends in Pharmacological Sciences.",
+        "publication_detail": "2013 Oct;34(10):581-9.",
         "doi": "10.1016/j.tips.2013.08.006"
     },
     {
+        "index": 14,
         "featured": false,
-        "html_text": "Russell, R., Tian, Y., Yuan, H. et al.<br/>ULK1 induces autophagy by phosphorylating Beclin-1 and activating VPS34 lipid kinase.<br/><em>Nature Cell Biology.</em> 15, 741–750 (2013).",
+        "author": "Russell RC, Tian Y, Yuan H, Park HW, Chang YY, Kim J, Kim H, Neufeld TP, Dillin A, Guan KL.",
+        "title": "ULK1 induces autophagy by phosphorylating Beclin-1 and activating VPS34 lipid kinase.",
+        "journal": "Nature Cell Biology.",
+        "publication_detail": "2013 Jul;15(7):741-50.",
         "doi": "10.1038/ncb2757"
     },
     {
+        "index": 13,
         "featured": false,
-        "html_text": "Yu, F. X., Zhang, Y., Park, H. W., Jewell, J. L., Chen, Q., Deng, Y., ... & Guan, K. L. (2013).<br/>Protein kinase A activates the Hippo pathway to modulate cell proliferation and differentiation.<br/><em>Genes & development.</em> 27(11), 1223-1232.",
+        "author": "Yu FX, Zhang Y, Park HW, Jewell JL, Chen Q, Deng Y, Pan D, Taylor SS, Lai ZC, Guan KL.",
+        "title": "Protein kinase A activates the Hippo pathway to modulate cell proliferation and differentiation.",
+        "journal": "Genes & Development.",
+        "publication_detail": "2013 Jun 1;27(11):1223-32.",
         "doi": "10.1101/gad.219402.113"
     },
     {
+        "index": 12,
         "featured": false,
-        "html_text": "Jung, J., Nam, J. H., Park, H. W., Oh, U., Yoon, J. H., & Lee, M. G. (2013).<br/>Dynamic modulation of ANO1/TMEM16A HCO3− permeability by Ca2+/calmodulin.<br/><em>Proceedings of the National Academy of Sciences.</em> 110(1), 360-365.",
+        "author": "Jung J, Nam JH, Park HW, Oh U, Yoon JH, Lee MG.",
+        "title": "Dynamic modulation of ANO1/TMEM16A HCO3(-) permeability by Ca2+/calmodulin.",
+        "journal": "PNAS.",
+        "publication_detail": "2013 Jan 2;110(1):360-5.",
         "doi": "10.1073/pnas.1211594110"
     },
     {
+        "index": 11,
         "featured": false,
-        "html_text": "Lee HJ, Yang WS, Park HW, Choi HS, Kim SH, Kim JY, Choi JY.<br/>Expression of anion exchangers in cultured human endolymphatic sac epithelia.<br/><em>Otol Neurotol.</em> (2012) Dec;33(9):1664-71.",
-        "doi": "No DOI Provided"
+        "author": "Lee HJ, Yang WS, Park HW, Choi HS, Kim SH, Kim JY, Choi JY.",
+        "title": "Expression of anion exchangers in cultured human endolymphatic sac epithelia.",
+        "journal": "Otology & Neurotology.",
+        "publication_detail": "2012 Dec;33(9):1664-71.",
+        "doi": "10.1097/MAO.0b013e31826bf3d3"
     },
     {
+        "index": 10,
         "featured": false,
-        "html_text": "Xiao F, Li J, Singh AK, Riederer B, Wang J, Sultan A, Park HW, ...Seidler U.<br/>Rescue of epithelial HCO3- secretion in murine intestine by apical membrane expression of the cystic fibrosis transmembrane conductance regulator mutant F508del.<br/><em>J Physiol.</em> (2012) Nov 1;590(Pt 21):5317-34.",
+        "author": "Xiao F, Li J, Singh AK, Riederer B, Wang J, Sultan A, Park H, Lee MG, Lamprecht G, Scholte BJ, De Jonge HR, Seidler U.",
+        "title": "Rescue of epithelial HCO3- secretion in murine intestine by apical membrane expression of the cystic fibrosis transmembrane conductance regulator mutant F508del.",
+        "journal": "The Journal of Physiology.",
+        "publication_detail": "2012 Nov 1;590(21):5317-34.",
         "doi": "10.1113/jphysiol.2012.232124"
     },
     {
+        "index": 9,
         "featured": false,
-        "html_text": "Park HW* and Lee MG.<br/>Transepithelial bicarbonate secretion: lessons from the pancreas.<br/><em>Cold Spring Harb Perspect Med.</em> (2012) Oct 1; 2(10).",
+        "author": "Park HW, Lee MG.",
+        "title": "Transepithelial bicarbonate secretion: lessons from the pancreas.",
+        "journal": "Cold Spring Harbor Perspectives in Medicine.",
+        "publication_detail": "2012 Oct 1;2(10):a009571.",
         "doi": "10.1101/cshperspect.a009571"
     },
     {
+        "index": 8,
         "featured": false,
-        "html_text": "Heo DK, Chung WY, Park HW, Yuan JP, Lee MG, Kim JY.<br/>Opposite regulatory effects of TRPC1 and TRPC5 on neurite outgrowth in PC12 cells.<br/><em>Cell Signal.</em> (2012) Apr; 24(4): 899-906.",
+        "author": "Heo DK, Chung WY, Park HW, Yuan JP, Lee MG, Kim JY.",
+        "title": "Opposite regulatory effects of TRPC1 and TRPC5 on neurite outgrowth in PC12 cells.",
+        "journal": "Cell Signal.",
+        "publication_detail": "2012 Apr;24(4):899-906.",
         "doi": "10.1016/j.cellsig.2011.12.011"
     },
     {
+        "index": 7,
         "featured": false,
-        "html_text": "Lee, M. G., Ohana, E., Park, H. W., Yang, D., & Muallem, S. (2012).<br/>Molecular mechanism of pancreatic and salivary gland fluid and HCO3− secretion.<br/><em>Physiological reviews.</em> 92(1), 39-74.",
+        "author": "Lee MG, Ohana E, Park HW, Yang D, Muallem S.",
+        "title": "Molecular mechanism of pancreatic and salivary gland fluid and HCO3 secretion.",
+        "journal": "Physiological Reviews.",
+        "publication_detail": "2012 Jan;92(1):39-74.",
         "doi": "10.1152/physrev.00011.2011"
     },
     {
+        "index": 6,
         "featured": false,
-        "html_text": "Park, H. W., Kim, J. Y., Choi, S. K., Lee, Y. H., Zeng, W., Kim, K. H., ... & Lee, M. G. (2011).<br/>Serine-threonine kinase with-no-lysine 4 (WNK4) controls blood pressure via transient receptor potential canonical 3 (TRPC3) in the vasculature.<br/><em>Proceedings of the National Academy of Sciences.</em> 108(26), 10750-10755.",
+        "author": "Park HW, Kim JY, Choi SK, Lee YH, Zeng W, Kim KH, Muallem S, Lee MG.",
+        "title": "Serine-threonine kinase with-no-lysine 4 (WNK4) controls blood pressure via transient receptor potential canonical 3 (TRPC3) in the vasculature.",
+        "journal": "PNAS.",
+        "publication_detail": "2011 Jun 28;108(26):10750-5.",
         "doi": "10.1073/pnas.1104271108"
     },
     {
+        "index": 5,
         "featured": false,
-        "html_text": "Chung WooYoung, C. W., Park HyunWoo, P. H., Heo DaeKeon, H. D., Kim KyungHwan, K. K., Lee MinGoo, L. M., & Kim JooYoung, K. J. (2011).<br/>WNK4 kinase negatively regulates the surface expression of Muscarinic M3 receptor.<br/><em>Cell Signal.</em> 23(3):566-71.",
+        "author": "Chung WY, Park HW, Heo DK, Kim KH, Lee MG, Kim JY.",
+        "title": "WNK4 kinase negatively regulates the surface expression of muscarinic M3 receptor.",
+        "journal": "Cell Signal.",
+        "publication_detail": "2011 Mar;23(3):566-71.",
         "doi": "10.1016/j.cellsig.2010.11.008"
     },
     {
+        "index": 4,
         "featured": false,
-        "html_text": "Park, H. W., Nam, J. H., Kim, J. Y., Namkung, W., Yoon, J. S., Lee, J. S., ... & Lee, M. G. (2010).<br/>Dynamic regulation of CFTR bicarbonate permeability by [Cl−] i and its role in pancreatic bicarbonate secretion.<br/><em>Gastroenterology.</em> 139(2), 620-631.",
+        "author": "Park HW, Nam JH, Kim JY, Namkung W, Yoon JS, Lee JS, Kim KS, Venglovecz V, Gray MA, Kim KH, Lee MG.",
+        "title": "Dynamic regulation of CFTR bicarbonate permeability by [Cl-]i and its role in pancreatic bicarbonate secretion.",
+        "journal": "Gastroenterology.",
+        "publication_detail": "2010 Aug;139(2):620-31",
         "doi": "10.1053/j.gastro.2010.04.004"
     },
     {
+        "index": 3,
         "featured": false,
-        "html_text": "Lee, J. S., Lee, Y. M., Kim, J. Y., Park, H. W., Grinstein, S., Orlowski, J., ... & Lee, M. G. (2010).<br/>βPix up-regulates Na+/H+ exchanger 3 through a Shank2-mediated protein-protein interaction.<br/><em>Journal of Biological Chemistry.</em> 285(11), 8104-8113.",
+        "author": "Lee JS, Lee YM, Kim JY, Park HW, Grinstein S, Orlowski J, Kim E, Kim KH, Lee MG.",
+        "title": "BetaPix up-regulates Na+/H+ exchanger 3 through a Shank2-mediated protein-protein interaction.",
+        "journal": "The Journal of Biological Chemistry.",
+        "publication_detail": "2010 Mar 12;285(11):8104-13.",
         "doi": "10.1074/jbc.M109.055079"
     },
     {
+        "index": 2,
         "featured": false,
-        "html_text": "Gee, H. Y., Kim, Y. W., Jo, M. J., Namkung, W., Kim, J. Y., Park, H. W., ... & Lee, M. G. (2009).<br/>Synaptic scaffolding molecule binds to and regulates vasoactive intestinal polypeptide type-1 receptor in epithelial cells.<br/><em>Gastroenterology.</em> 137(2), 607-617.",
+        "author": "Gee HY, Kim YW, Jo MJ, Namkung W, Kim JY, Park HW, Kim KS, Kim H, Baba A, Yang J, Kim E, Kim KH, Lee MG.",
+        "title": "Synaptic scaffolding molecule binds to and regulates vasoactive intestinal polypeptide type-1 receptor in epithelial cells.",
+        "journal": "Gastroenterology.",
+        "publication_detail": "2009 Aug;137(2):607-17, 617.e1-4.",
         "doi": "10.1053/j.gastro.2009.01.065"
     },
     {
+        "index": 1,
         "featured": false,
-        "html_text": "Gee, H. Y., Park, H. W., Kim, K. H., & Lee, M. G. (2009).<br/>PDZ-based adaptor proteins in epithelial anion transport and VIP receptor regulation.<br/><em>The Journal of Medical Investigation.</em> 56(Supplement), 302-305.",
+        "author": "Gee HY, Park HW, Kim KH, Lee MG.",
+        "title": "PDZ-based adaptor proteins in epithelial anion transport and VIP receptor regulation.",
+        "journal": "The Journal of Investigative Medicine.",
+        "publication_detail": "2009;56 Suppl:302-5.",
         "doi": "10.2152/jmi.56.302"
     }
 ]

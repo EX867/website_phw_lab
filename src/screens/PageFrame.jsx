@@ -13,6 +13,11 @@ const Module = () => {
   return (
     <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <div className="root-container">
+            <div className="yellow-box-container">
+                <div className="yellow-box">
+                    <strong>Ready to start planning your care?</strong> Call us at (+82)-2-2123-2698  to make an appointment.
+                </div>
+            </div>
             <div className="body-container">
                 <div className="body">
                     <div className="header">
