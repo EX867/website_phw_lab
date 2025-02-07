@@ -9,10 +9,10 @@ const ArticlePreview = ({article}) => {
                 src="./assets/images/placeholder.svg"/> :
             <img alt="preview of article"
                 src={article.preview_image}/>}
-        <div>
+        <div className="article-content-wrapper">
             <a href={article.src} target="_blank" rel="noreferrer">{article.title} </a>
             {"date" in article ? <div className="text-text_gray text-smaller leading-normal py-1">{article.date}</div> : <div className="h-1"/>}
-            <div>{article.preview_content}</div>
+            <div className="article-content">{article.preview_content}</div>
         </div>
     </div>
   );

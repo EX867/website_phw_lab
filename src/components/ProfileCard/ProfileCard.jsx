@@ -10,12 +10,13 @@ const ProfileCard = ({person}) => {
       <div className="wrapper">
         <div>
           <span className="name">{person.name}</span>
+          {"email" in person ?
           <span className="email-wrapper">
             <CopyLink content={person.email} description="email">
               <span className="material-icons">mail</span>
             </CopyLink>
             <div className="popup">{person.email}</div>
-          </span>
+          </span> : ""}
         </div>
         <div className="caption">{person.caption}</div>
       </div>

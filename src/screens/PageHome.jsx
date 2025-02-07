@@ -130,7 +130,7 @@ const PageHome = () => {
 
             <div className="main-image">
                 <img alt="research content"
-                    src="./assets/images/main.png"/>
+                    src="./assets/images/main.jpg"/>
                 {/*<div className="main-text-frame">
                     <p className="main-text-detail">YONSEI UNIVERSITY</p>
                     <p className="main-text">The TCR Lab</p>
@@ -181,19 +181,19 @@ const PageHome = () => {
                                 <div className="carousel-container">
                                     <Slider ref={slider} {...slider_settings}>
                                         <div className="carousel-item">
-                                            <img alt="people"
-                                                src="./assets/images/home1.jpg"/>
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img alt="people"
-                                                src="./assets/images/home2.jpg"/>
-                                        </div>
-                                        <div className="carousel-item">
                                             <iframe src="https://www.youtube-nocookie.com/embed/3ihLLwSEJlI?si=d-aQuNS1EjGAY40o"
                                                     title="YouTube video player"
                                                     frameborder="0"
                                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
+                                        </div>
+                                        <div className="carousel-item">
+                                            <img alt="people"
+                                                src="./assets/images/home_cgv.jpg"/>
+                                        </div>
+                                        <div className="carousel-item">
+                                            <img alt="people"
+                                                src="./assets/images/home_lab.jpg"/>
                                         </div>
                                     </Slider>
                                     <br/><br/>
@@ -201,15 +201,15 @@ const PageHome = () => {
                             </div>
 
                             <div className="professor-small">
-                                <img className="w-48"
+                                <img className="w-48 pb-2"
                                     alt="professor Hyun Woo Park"
                                     src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
-                                <div className="text-yonsei font-bold">
+                                <div className="text-yonsei font-bold leading-normal">
                                     Hyun Woo Park, PhD
                                 </div>
                                 <div>
-                                    PhD Associate Professor<br/>
+                                    Associate Professor<br/>
                                     Dept. Biochemistry,<br/>
                                     Yonsei University
                                 </div>
@@ -247,8 +247,8 @@ const PageHome = () => {
 
                             <div>
                                 <h2 className="text-text_black">Hyun Woo (Henry) Park, PhD</h2>
-                                <div className="text-small italic -mt-2">Associate Professor, Department of Biochemistry, Yonsei University</div>
-                                <ul className="leading-[130%]">
+                                <div className="text-small italic -mt-4">Associate Professor, Department of Biochemistry, Yonsei University</div>
+                                <ul className="leading-[140%]">
                                     <li>Cancer biologist Hyun Woo (Henry) Park investigates cancer cell plasticity in metastatic cascade and anti-metastatic drug development</li>
                                     <li>Director, AST Metastasis Research Center</li>
                                     <li>SUHF Fellow</li>

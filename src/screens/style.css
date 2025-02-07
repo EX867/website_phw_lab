@@ -39,6 +39,26 @@
   max-width: 1200px;
 }
 
+.root-container .header {
+  display: flex;
+  overflow: hidden;
+  
+  gap: min(1.5rem, 5%);
+
+  padding: 1.5rem 0;
+  height: 8.5rem;
+}
+
+.root-container .header img{
+  height: 5.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  .root-container .header {
+    border-bottom: 3px solid theme("colors.yonsei")
+  }
+}
+
 .root-container .main-image {
   /* position: relative; */
   margin-bottom: 2rem;
@@ -48,13 +68,21 @@
   width: 100%;
 }
 
-.root-container .carousel-container {
-  max-width: min(36vw, calc(1200px * 0.78 - 18rem));
+@media screen and (min-width: 800px) {
+  .root-container .carousel-container {
+    width: min(36vw, calc(1200px * 0.78 - 18rem));
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .root-container .carousel-container {
+    max-width: 72vw;
+  }
 }
 
 .carousel-container .carousel-item {
   width: 100%;
-  height: 100%;
+  aspect-ratio: auto 16 / 9;
 }
 
 .carousel-container .slick-dots {
@@ -69,41 +97,10 @@
   vertical-align: middle;
 }
 
-@media screen and (max-width: 799px) {
-
-  .root-container .carousel-container {
-    max-width: 72vw;
-  }
-  
-  .carousel-container .carousel-item {
-    width: 72vw;
-    height: 40vw;
-  }
-}
-
 .carousel-container img, iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.root-container .header {
-  display: flex;
-  
-  gap: min(1.5rem, 5%);
-
-  padding: 1.5rem 0;
-  height: 7.5rem;
-}
-
-.root-container .header img{
-  height: 4.5rem;
-}
-
-@media screen and (min-width: 800px) {
-  .root-container .header {
-    border-bottom: 3px solid theme("colors.yonsei")
-  }
 }
 
 .root-container .content-horizontal-flex {

@@ -34,7 +34,7 @@
             "src": "./assets/images/members/Han Nah Lee.png",
             "name": "Han Nah Lee",
             "caption": "PhD Student",
-            "email": "hnlee@yonsei.ac.kr"
+            "email": "hnlee1037@yonsei.ac.kr"
         },
         {
             "src": "./assets/images/members/Byun Jong Hwa.png",
@@ -64,33 +64,28 @@
     "alumni": [
         {
             "src": "./assets/images/alumni/Jae Hyung Park.png",
-            "name": "Jae Hyung Park",
-            "caption": "PhD",
-            "email": "jaehyung_park@tmax.co.kr"
+            "name": "Jae Hyung Park, PhD",
+            "caption": "Tmax Tibero ㈜"
         },
         {
             "src": "./assets/images/alumni/Hyun Bin Huh.png",
-            "name": "Hyun Bin Huh",
-            "caption": "PhD",
-            "email": "huhhb621@yonsei.ac.kr"
+            "name": "Hyun Bin Huh, PhD",
+            "caption": "UCSF, Postdoctoral Fellow"
         },
         {
             "src": "./assets/images/alumni/Ji Eun Shin.png",
-            "name": "Ji Eun Shin",
-            "caption": "PhD",
-            "email": "sjer@yonsei.ac.kr"
+            "name": "Ji Eun Shin, PhD",
+            "caption": "La Jolla Institute for Immunology, Postdoctoral Fellow"
         },
         {
             "src": "./assets/images/alumni/Ye Eun Kim.png",
-            "name": "Ye Eun Kim",
-            "caption": "Master",
-            "email": "yeeun3189@naver.com"
+            "name": "Ye Eun Kim, Master",
+            "caption": "SK Plasma ㈜"
         },
         {
             "src": "./assets/images/alumni/Ju Young Lee.png",
-            "name": "Ju Young Lee",
-            "caption": "Master",
-            "email": "bboojy@yonsei.ac.kr"
+            "name": "Ju Young Lee, Master",
+            "caption": "바이오스펙트럼 ㈜"
         }
     ]
 }
