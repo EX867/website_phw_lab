@@ -21,7 +21,7 @@ const Module = () => {
             <div className="body-container">
                 <div className="body">
                     <div className="header">
-                        <a href="/">
+                        <a href="https://www.yonsei.ac.kr/">
                             <img src="./assets/images/header1.png" alt="Yonsei University"></img>
                         </a>
                         <a href="/">

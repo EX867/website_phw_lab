@@ -181,6 +181,13 @@ const PageHome = () => {
                                 <div className="carousel-container">
                                     <Slider ref={slider} {...slider_settings}>
                                         <div className="carousel-item">
+                                            <iframe src="https://www.youtube.com/embed/dUgsEOfYi7E?si=sm83uXGiEWg0uwAQ"
+                                                    title="YouTube video player"
+                                                    frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
+                                        </div>
+                                        <div className="carousel-item">
                                             <iframe src="https://www.youtube-nocookie.com/embed/3ihLLwSEJlI?si=d-aQuNS1EjGAY40o"
                                                     title="YouTube video player"
                                                     frameborder="0"
@@ -189,11 +196,11 @@ const PageHome = () => {
                                         </div>
                                         <div className="carousel-item">
                                             <img alt="people"
-                                                src="./assets/images/home_cgv.jpg"/>
+                                                src="./assets/images/home_lab.jpg"/>
                                         </div>
                                         <div className="carousel-item">
                                             <img alt="people"
-                                                src="./assets/images/home_lab.jpg"/>
+                                                src="./assets/images/home_cgv.jpg"/>
                                         </div>
                                     </Slider>
                                     <br/><br/>
