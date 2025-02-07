@@ -181,14 +181,24 @@ const PageHome = () => {
                                 <div className="carousel-container">
                                     <Slider ref={slider} {...slider_settings}>
                                         <div className="carousel-item">
-                                            <iframe src="https://www.youtube.com/embed/dUgsEOfYi7E?si=sm83uXGiEWg0uwAQ"
+                                            <iframe src="https://www.youtube.com/embed/dUgsEOfYi7E?si=sm83uXGiEWg0uwAQ&rel=0"
+                                                    title="YouTube video player"
+                                                    frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
+                                            <div className="pl-4 pt-4 pr-4">
+                                                [서경배과학재단] 2018 SUHF Fellow 연세대학교 생화학과 박현우 교수님 인터뷰
+                                            </div>
+                                        </div>
+                                        <div className="carousel-item">
+                                            <iframe src="https://www.youtube-nocookie.com/embed/3ihLLwSEJlI?si=d-aQuNS1EjGAY40o&rel=0"
                                                     title="YouTube video player"
                                                     frameborder="0"
                                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
                                         </div>
                                         <div className="carousel-item">
-                                            <iframe src="https://www.youtube-nocookie.com/embed/3ihLLwSEJlI?si=d-aQuNS1EjGAY40o"
+                                            <iframe src="https://www.youtube.com/embed/7t_orl4pXgM?si=2aQUn3SW3-tIgw9b&rel=0"
                                                     title="YouTube video player"
                                                     frameborder="0"
                                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

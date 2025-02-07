@@ -64,27 +64,32 @@
     "alumni": [
         {
             "src": "./assets/images/alumni/Jae Hyung Park.png",
-            "name": "Jae Hyung Park, PhD",
+            "name": "Jae Hyung Park",
+            "name_caption": "PhD",
             "caption": "Tmax Tibero ㈜"
         },
         {
             "src": "./assets/images/alumni/Hyun Bin Huh.png",
-            "name": "Hyun Bin Huh, PhD",
+            "name": "Hyun Bin Huh",
+            "name_caption": "PhD",
             "caption": "UCSF, Postdoctoral Fellow"
         },
         {
             "src": "./assets/images/alumni/Ji Eun Shin.png",
-            "name": "Ji Eun Shin, PhD",
+            "name": "Ji Eun Shin",
+            "name_caption": "PhD",
             "caption": "La Jolla Institute for Immunology, Postdoctoral Fellow"
         },
         {
             "src": "./assets/images/alumni/Ye Eun Kim.png",
-            "name": "Ye Eun Kim, Master",
+            "name": "Ye Eun Kim",
+            "name_caption": "Master",
             "caption": "SK Plasma ㈜"
         },
         {
             "src": "./assets/images/alumni/Ju Young Lee.png",
-            "name": "Ju Young Lee, Master",
+            "name": "Ju Young Lee",
+            "name_caption": "Master",
             "caption": "바이오스펙트럼 ㈜"
         }
     ]
