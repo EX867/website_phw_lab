@@ -118,8 +118,8 @@ const PageHome = () => {
         ),
       };
 
-    return (
-        <div>
+    return (      
+        <div className="flex flex-col items-center">
             <MobileNavBar>
                 <VerticalNavButton label="Research" src="#content-research"/>
                 <VerticalNavButton label="Featured News" src="#content-news"/>
@@ -146,6 +146,7 @@ const PageHome = () => {
                         <FollowingNavButton label="Featured News" src="#content-news"/>
                         <FollowingNavButton label="Publication Highlights" src="#content-publication"/>
                         <FollowingNavButton label="People" src="#content-people"/>
+                        <FollowingNavButton label="Achievements" src="#content-achievements"/>
                         <FollowingNavButton label="Open Positions" src="#content-open-positions"/>
                     </div>
                 </div>
@@ -181,21 +182,24 @@ const PageHome = () => {
                                 <div className="carousel-container">
                                     <Slider ref={slider} {...slider_settings}>
                                         <div className="carousel-item">
+                                            <iframe src="https://www.youtube-nocookie.com/embed/3ihLLwSEJlI?si=d-aQuNS1EjGAY40o&rel=0"
+                                                    title="YouTube video player"
+                                                    frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
+                                            <div className="pl-4 pt-4 pr-4">
+                                                2024 경암바이오유스캠프 강연 : 혹부리 영감이 들려주는 암전이의 비밀
+                                            </div>
+                                        </div>
+                                        <div className="carousel-item">
                                             <iframe src="https://www.youtube.com/embed/dUgsEOfYi7E?si=sm83uXGiEWg0uwAQ&rel=0"
                                                     title="YouTube video player"
                                                     frameborder="0"
                                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
                                             <div className="pl-4 pt-4 pr-4">
-                                                [서경배과학재단] 2018 SUHF Fellow 연세대학교 생화학과 박현우 교수님 인터뷰
+                                                서경배과학재단 펠로우로 선정된 연세대학교 생화학과 박현우 교수님 인터뷰
                                             </div>
-                                        </div>
-                                        <div className="carousel-item">
-                                            <iframe src="https://www.youtube-nocookie.com/embed/3ihLLwSEJlI?si=d-aQuNS1EjGAY40o&rel=0"
-                                                    title="YouTube video player"
-                                                    frameborder="0"
-                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
                                         </div>
                                         <div className="carousel-item">
                                             <iframe src="https://www.youtube.com/embed/7t_orl4pXgM?si=2aQUn3SW3-tIgw9b&rel=0"
@@ -203,14 +207,23 @@ const PageHome = () => {
                                                     frameborder="0"
                                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
+                                            <div className="pl-4 pt-4 pr-4">
+                                                AST암전이연구단 박현우 단장 인터뷰
+                                            </div>
                                         </div>
                                         <div className="carousel-item">
                                             <img alt="people"
                                                 src="./assets/images/home_lab.jpg"/>
+                                            <div className="pl-4 pt-4 pr-4">
+                                                TCR Lab의 훌륭한 연구원들과 함께하는 암 정복의 여정
+                                            </div>
                                         </div>
                                         <div className="carousel-item">
                                             <img alt="people"
                                                 src="./assets/images/home_cgv.jpg"/>
+                                            <div className="pl-4 pt-4 pr-4">
+                                                TCR Lab과 함께 신나는 Lab activity!
+                                            </div>
                                         </div>
                                     </Slider>
                                     <br/><br/>
@@ -288,6 +301,13 @@ const PageHome = () => {
                         <div className="list-people">
                             {data_people.alumni.map(person => <ProfileCard person={person}/>)}
                         </div>
+                    </section>
+
+                    <section id="content-achievements">
+                        <h2>Achievements</h2>
+                        <ul>
+                            <li>Achievement 1</li>
+                        </ul>
                     </section>
                     
                     <section id="content-open-positions">

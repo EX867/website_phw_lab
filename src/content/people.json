@@ -63,12 +63,6 @@
     ],
     "alumni": [
         {
-            "src": "./assets/images/alumni/Jae Hyung Park.png",
-            "name": "Jae Hyung Park",
-            "name_caption": "PhD",
-            "caption": "Tmax Tibero ㈜"
-        },
-        {
             "src": "./assets/images/alumni/Hyun Bin Huh.png",
             "name": "Hyun Bin Huh",
             "name_caption": "PhD",
@@ -79,6 +73,12 @@
             "name": "Ji Eun Shin",
             "name_caption": "PhD",
             "caption": "La Jolla Institute for Immunology, Postdoctoral Fellow"
+        },
+        {
+            "src": "./assets/images/alumni/Jae Hyung Park.png",
+            "name": "Jae Hyung Park",
+            "name_caption": "PhD",
+            "caption": "Tmax Tibero ㈜"
         },
         {
             "src": "./assets/images/alumni/Ye Eun Kim.png",

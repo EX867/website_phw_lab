@@ -19,15 +19,15 @@ const Module = () => {
                 </div>
             </div>
             <div className="body-container">
+                <div className="header">
+                    <a href="https://www.yonsei.ac.kr/">
+                        <img src="./assets/images/header1.png" alt="Yonsei University"></img>
+                    </a>
+                    <a href="/">
+                        <img src="./assets/images/header2.png" alt="research visualization"></img>
+                    </a>
+                </div>
                 <div className="body">
-                    <div className="header">
-                        <a href="https://www.yonsei.ac.kr/">
-                            <img src="./assets/images/header1.png" alt="Yonsei University"></img>
-                        </a>
-                        <a href="/">
-                            <img src="./assets/images/header2.png" alt="research visualization"></img>
-                        </a>
-                    </div>
 
                     <Routes>
                         <Route exact path='/' element={<PageHome/>}/>
@@ -41,13 +41,21 @@ const Module = () => {
             <div className="footer-wrapper">
                 <footer className="footer">
                     <div className="footer-info-list">
-                        <div><span className="material-icons">pin_drop</span>서울특별시 서대문구 신촌동 연세로 50-1 연세대학교 과학원 323동 </div>
-                        <div><span className="material-icons">mail</span>hwp003@yonsei.ac.kr</div>
-                        <div><span className="material-icons">call</span>(+82)-2-2123-2698</div>
+                        <div><span className="material-icons">pin_drop</span>&nbsp;서울특별시 서대문구 신촌동 연세로 50-1 연세대학교 과학원 323동 </div>
+                        <div><span className="material-icons">mail</span>&nbsp;hwp003@yonsei.ac.kr</div>
+                        <div><span className="material-icons">call</span>&nbsp;(+82)-2-2123-2698</div>
                     </div>
 
                     <div>© 2025. TCR Lab All Rights Reserved.</div>
                 </footer>
+                <div className="footer-bar">
+                    <a href="https://www.yonsei.ac.kr/">
+                        <img src="./assets/images/footer1.png" alt="Yonsei University"></img>
+                    </a>
+                    <a href="/">
+                        <img src="./assets/images/footer2.png" alt="research visualization"></img>
+                    </a>
+                </div>
             </div>
         </div>
     </BrowserRouter>);

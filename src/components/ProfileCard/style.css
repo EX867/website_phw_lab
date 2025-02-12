@@ -32,6 +32,7 @@
 .profile-card .caption {
   font-size: theme("fontSize.smaller");
   font-weight: 300;
+  line-height: 120%;
 }
 
 .profile-card .popup {
