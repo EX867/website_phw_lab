@@ -21,10 +21,10 @@ const Module = () => {
             <div className="body-container">
                 <div className="header">
                     <a href="https://www.yonsei.ac.kr/">
-                        <img src="./assets/images/header1.png" alt="Yonsei University"></img>
+                        <img id="header-img1" src="./assets/images/header1.png" alt="Yonsei University"></img>
                     </a>
                     <a href="/">
-                        <img src="./assets/images/header2.png" alt="research visualization"></img>
+                        <img id="header-img2" src="./assets/images/header2.png" alt="research visualization"></img>
                     </a>
                 </div>
                 <div className="body">

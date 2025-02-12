@@ -10,7 +10,7 @@
     },
     {
         "index": 52,
-        "featured": false,
+        "featured": true,
         "author": "Woo Yang Pyun, Jae Hyung Park, Jae Won Roh, Dongkyu Jeon, Jongwan Kim, Ji Eun Paik, Seok Chan Cho, So Yeon Park, Hocheol Lim, Hyungwoo Kim, Young Jin Jang, Jaehoon Lee, Soo-Youl Kim, Kun-Liang Guan, Heon Yung Gee, Han-Woong Lee, Kyoung Tai No, Han-Sol Jeong, Wan Namkung, Joo Hyun Nam, Hyun Woo Park",
         "title": "Nutrient availability dictates cancer metabolism-based therapeutic responses of non-oncology drugs",
         "journal": "bioRxiv.",

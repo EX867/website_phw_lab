@@ -1,0 +1,31 @@
+[논문 추가]
+파일 위치: src/content/publication.json
+{
+    "index": 53, /* 교수님이 관리하시는 cv 어쩌고 하는 문서의 논문 인덱스 번호 */
+    "featured": true, /* 홈 화면에 노출할 것인가? (아니면 전체보기에서만 보입니다.) */
+    "author": "Hyunbin D. Huh...", /* 저자 목록 (끝에 . 붙여야 합니다.) */
+    "title": "Cell competition confers anchorage plasticity of disseminated tumor cells.", /* 논문 제목 */
+    "journal": "bioRxiv.", /* 저널 이름 (풀네임 권장) */
+    "publication_detail": "2024.11.25.625320;", /* 출판 정보 */
+    "doi": "10.1101/2024.11.25.625320" /* doi 주소 (https://doi.org 제외) */
+}
+
+[뉴스 추가]
+파일 위치: src/content/news.json
+{
+    "featured": true, /* 홈 화면에 노출할 것인가? (아니면 전체보기에서만 보입니다.) */
+    "title": "만성 염증과 종양 치료의 새로운 길 열다: 대식세포 TAZ 타겟 규명", /* 뉴스 제목 */
+    "src": "https://www.ibric.org/bric/trend/bio-news.do?mode=view&beforeMode=research-result&articleNo=9950940#!/list", /* 뉴스 URL */
+    "preview_image": "./assets/images/news/논문 홍보.png", /* 미리보기 사진 */
+    "preview_content": "연세대학교(총장 윤동섭) 생화학과 박현우 교수..." /* 미리보기 내용 */
+}
+
+[사람 추가]
+파일 위치: src/content/people.json
+{
+    "src": "./assets/images/alumni/Hyun Bin Huh.png", /* 사진 위치 (상대경로) */
+    "name": "Hyun Bin Huh", /* 이름 */
+    "name_caption": "PhD", /* 이름 우측 작은 검은 글씨 (옵션) */
+    "caption": "UCSF, Postdoctoral Fellow" /* 이름 아래 큰 검은 글씨 */
+    "email": "wkddl0416@yonsei.ac.kr" /* 누르면 이메일이 복사되는 메일 아이콘 (옵션) */
+}

@@ -306,7 +306,13 @@ const PageHome = () => {
                     <section id="content-achievements">
                         <h2>Achievements</h2>
                         <ul>
-                            <li>Achievement 1</li>
+                            <li>2024년 국가연구개발 우수성과 100선 선정</li>
+                            <li>2024년 한국생화학분자생물학회 사석상 수상</li>
+                            <li>2023년 미래융합전략센터 FSCS 융합연구 우수사례 선정</li>
+                            <li>2023년 과학기술정보통신부 융합연구개발 활성화 유공자 장관 표창</li>
+                            <li>2019년 한국분자세포생물학회 신진과학자상 수상</li>
+                            <li>2018년 서경배과학재단팰로우 선정</li>
+                            <li>2018년 포스코청암팰로우 선정</li>
                         </ul>
                     </section>
                     
