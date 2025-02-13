@@ -326,12 +326,27 @@
   justify-content: space-between;
   flex-wrap: wrap;
   
-  gap: min(1.5rem, 5%);
+  gap: 1.5rem;
 
   padding: 1.5rem;
-  min-height: 8.5rem;
 }
 
-.root-container .footer-bar img{
-  height: 5rem;
+@media screen and (min-width: 800px) {
+  .root-container .footer-bar {
+    min-height: 8.5rem;
+  }
+
+  .root-container .footer-bar img{
+    height: 5rem;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .root-container .footer-bar {
+    min-height: 7.5rem;
+  }
+
+  .root-container .footer-bar img{
+    height: 4rem;
+  }
 }

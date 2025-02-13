@@ -1,37 +1,8 @@
 :root {
     
-    --responsive-device-width: 1200px;
-    
     --color-yonsei: rgba(0, 49, 116, 1);
     --color-link: rgba(0, 115, 224, 1);
   }
-  
-  /*
-  
-  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
-  
-  <body data-responsive-mode="desktop">
-      <!-- the rest of your content -->
-  </body>
-  
-  You can apply the theme on any DOM node, not just the `body`
-  
-  */
-  
-/* // TODO: 이거  반응성으로 바꿔야함
- [data-responsive-mode="desktop"] {
-    --responsive-device-width: 1200px;
-  }
-  
-  [data-responsive-mode="mobile"] {
-    --responsive-device-width: 375px;
-  }
-  
-  [data-responsive-mode="tablet"] {
-    --responsive-device-width: 768px;
-  }*/
-  
-
   /*
   <flex: https://studiomeal.com/archives/197>
 
