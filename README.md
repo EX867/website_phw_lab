@@ -14,12 +14,15 @@ git push
 
 ## 페이지 구조
 
+```
 / : 홈 화면
 /news : 뉴스 전체보기
 /publications : 논문 전체보기
+```
 
 ## 파일 구조
 
+```
 ├── /public
 │   ├── /assets : 이미지 리소스 파일들
 │   │   └── **/images**
@@ -52,3 +55,4 @@ git push
 ├── package.json
 ├── README.md
 └── tailwind.config.js
+```
