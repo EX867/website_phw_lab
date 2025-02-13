@@ -8,9 +8,9 @@
 
 	html {
 		color: theme("colors.text_black");
-        font-family: "DM Sans", "Gothic A1", sans-serif;
+        font-family: "DM Sans", sans-serif; /* 따옴표로 한글폰트 추가 */
         font-optical-sizing: auto;
-		font-size: 17.5px;
+		font-size: 18px;
 		font-weight: 400;
         letter-spacing: -0.015em;
         

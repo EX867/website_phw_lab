@@ -236,7 +236,7 @@ const PageHome = () => {
                                     src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
                                 <div className="text-yonsei font-bold leading-normal">
-                                    Hyun Woo Park, PhD
+                                    Hyun Woo (Henry) Park, PhD
                                 </div>
                                 <div>
                                     Associate Professor<br/>

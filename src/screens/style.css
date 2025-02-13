@@ -1,5 +1,9 @@
 @tailwind utilities;
 
+.root {
+  font-size: 24px;
+}
+
 .root-container {
   display: flex;
   flex-direction: column;
@@ -34,13 +38,14 @@
 .root-container .yellow-box {
   padding: 20px;
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 .root-container .header {
   align-self: stretch;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   overflow: hidden;
   
   gap: min(1.5rem, 5%);
