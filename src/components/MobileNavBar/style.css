@@ -29,6 +29,11 @@
   }
 }
 
+
+.mobile-nav-bar{
+  align-self: stretch;
+}
+
 .mobile-nav-bar nav {
   overflow: auto;
   display: flex;

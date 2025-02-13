@@ -7,6 +7,7 @@
 
   background-color: #ffffff;
   width: 100%;
+  overflow: clip;
   
   line-height: 140%;
 }
@@ -278,7 +279,7 @@
 
   background-color: var(--color-yonsei);
   width: 100%;
-  margin-top: 12rem; /* 4rem */
+  margin-top: 22rem; /* 4rem */
 }
 
 .root-container .footer {
@@ -289,7 +290,7 @@
 
   width: 100%;
   /*max-width: 1200px;*/
-  padding: 2rem 2rem 15rem 2rem;
+  padding: 2rem 2rem 4rem 2rem;
 }
 
 @media screen and (max-width: 799px) {
@@ -318,11 +319,12 @@
   align-self: stretch;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   
   gap: min(1.5rem, 5%);
 
   padding: 1.5rem;
-  height: 8.5rem;
+  min-height: 8.5rem;
 }
 
 .root-container .footer-bar img{
