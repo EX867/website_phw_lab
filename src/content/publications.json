@@ -20,7 +20,7 @@
     },
     {
         "index": 51,
-        "featured": true,
+        "featured": false,
         "author": "Park JH, Jeon D, Kim J, Pyun WY, Park SY...No KT, Namkung W, Park HW.",
         "title": "Nutrient availability dictates cancer metabolism-based therapeutic responses of non-oncology drugs.",
         "journal": "Nature Communications.",

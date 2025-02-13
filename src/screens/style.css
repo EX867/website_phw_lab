@@ -266,6 +266,10 @@
   gap: 1.5rem;
 }
 
+#content-achievements a {
+  text-decoration: underline;
+}
+
 .root-container .footer-wrapper {
   display: flex;
   flex-direction: column;
@@ -274,7 +278,7 @@
 
   background-color: var(--color-yonsei);
   width: 100%;
-  margin-top: 4rem;
+  margin-top: 12rem; /* 4rem */
 }
 
 .root-container .footer {
@@ -284,7 +288,7 @@
   color: #ffffff;
 
   width: 100%;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   padding: 2rem 2rem 15rem 2rem;
 }
 

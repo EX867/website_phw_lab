@@ -130,7 +130,7 @@ const PageHome = () => {
 
             <div className="main-image">
                 <img alt="research content"
-                    src="./assets/images/main.jpg"/>
+                    src="./assets/images/main.png"/>
                 {/*<div className="main-text-frame">
                     <p className="main-text-detail">YONSEI UNIVERSITY</p>
                     <p className="main-text">The TCR Lab</p>
@@ -304,14 +304,20 @@ const PageHome = () => {
                     </section>
 
                     <section id="content-achievements">
+                        <style>
+                            text-decoration: underline;
+                        </style>
                         <h2>Achievements</h2>
-                        <ul>
-                            <li>2024년 국가연구개발 우수성과 100선 선정</li>
+                        <ul sr>
+                            <li><a href="https://www.kistep.re.kr/board.es?mid=a10202060400&bid=0072&act=view&list_no=93966" target="_blank" rel="noreferrer">
+                                2024년 국가연구개발 우수성과 100선 선정</a></li>
                             <li>2024년 한국생화학분자생물학회 사석상 수상</li>
                             <li>2023년 미래융합전략센터 FSCS 융합연구 우수사례 선정</li>
-                            <li>2023년 과학기술정보통신부 융합연구개발 활성화 유공자 장관 표창</li>
+                            <li><a href="https://www.yonsei.ac.kr/_custom/yonsei/_app/ocx/news/app.jsp?mode=view&ar_seq=20240122132146253062&sr_volume=0&list_mode=list&sr_site=S&pager.offset=0&sr_cates=20160305000124325067" target="_blank" rel="noreferrer">
+                                2023년 과학기술정보통신부 융합연구개발 활성화 유공자 장관 표창</a></li>
                             <li>2019년 한국분자세포생물학회 신진과학자상 수상</li>
-                            <li>2018년 서경배과학재단팰로우 선정</li>
+                            <li><a href="https://www.suhf.org/investigator/people.do" target="_blank" rel="noreferrer">
+                                2018년 서경배과학재단팰로우 선정</a></li>
                             <li>2018년 포스코청암팰로우 선정</li>
                         </ul>
                     </section>
