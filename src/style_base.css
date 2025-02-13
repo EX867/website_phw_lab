@@ -8,11 +8,11 @@
 
 	html {
 		color: theme("colors.text_black");
-        font-family: "DM Sans", "IBM Plex Sans KR", sans-serif;
+        font-family: "DM Sans", "Gothic A1", sans-serif;
         font-optical-sizing: auto;
 		font-size: 17.5px;
 		font-weight: 400;
-        letter-spacing: -0.005em;
+        letter-spacing: -0.015em;
         
         scroll-behavior: smooth;
     }

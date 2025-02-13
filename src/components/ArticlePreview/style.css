@@ -41,7 +41,7 @@
 
 .article-preview a {
   font-size: 1.5em; /*24px*/
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.3em;
   text-overflow: ellipsis;
   overflow: hidden;
