@@ -272,9 +272,14 @@
   gap: 1.5rem;
 }
 
-#content-achievements a {
-  text-decoration: underline;
+#content-achievements  {
+  font-weight: bold;
 }
+
+.achievement-link-banner {
+  margin-left: 0.5rem; 
+}
+
 
 .root-container .footer-wrapper {
   display: flex;

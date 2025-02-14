@@ -304,21 +304,72 @@ const PageHome = () => {
                     </section>
 
                     <section id="content-achievements">
-                        <style>
-                            text-decoration: underline;
-                        </style>
-                        <h2>Achievements</h2>
-                        <ul sr>
-                            <li><a href="https://www.kistep.re.kr/board.es?mid=a10202060400&bid=0072&act=view&list_no=93966" target="_blank" rel="noreferrer">
-                                2024년 국가연구개발 우수성과 100선 선정</a></li>
-                            <li>2024년 한국생화학분자생물학회 사석상 수상</li>
-                            <li>2023년 미래융합전략센터 FSCS 융합연구 우수사례 선정</li>
-                            <li><a href="https://www.yonsei.ac.kr/_custom/yonsei/_app/ocx/news/app.jsp?mode=view&ar_seq=20240122132146253062&sr_volume=0&list_mode=list&sr_site=S&pager.offset=0&sr_cates=20160305000124325067" target="_blank" rel="noreferrer">
-                                2023년 과학기술정보통신부 융합연구개발 활성화 유공자 장관 표창</a></li>
-                            <li>2019년 한국분자세포생물학회 신진과학자상 수상</li>
-                            <li><a href="https://www.suhf.org/investigator/people.do" target="_blank" rel="noreferrer">
-                                2018년 서경배과학재단팰로우 선정</a></li>
-                            <li>2018년 포스코청암팰로우 선정</li>
+                      <h2>Achievements</h2>
+                        <ul>
+                            <li>
+                            2024년 국가연구개발 우수성과 100선 선정 
+                            <span className="achievement-link-banner">
+                                <a href="https://www.kistep.re.kr/board.es?mid=a10202060400&bid=0072&act=view&list_no=93966" 
+                                target="_blank" 
+                                rel="noreferrer">
+                                [바로가기]
+                                </a>
+                            </span>
+                            </li>
+                            <li>
+                            2024년 한국생화학분자생물학회 사석상 수상
+                            {/* 링크가 필요 없으면 그대로 두세요. */}
+                            </li>
+                            <li>
+                            2023년 미래융합전략센터 FSCS 융합연구 우수사례 선정
+                            {/* 링크가 있다면 동일한 방식으로 분리합니다. */}
+                            </li>
+                            <li>
+                            2023년 과학기술정보통신부 융합연구개발 활성화 유공자 장관 표창 
+                            <span className="achievement-link-banner">
+                                <a href="https://www.yonsei.ac.kr/_custom/yonsei/_app/ocx/news/app.jsp?mode=view&ar_seq=20240122132146253062&sr_volume=0&list_mode=list&sr_site=S&pager.offset=0&sr_cates=20160305000124325067" 
+                                target="_blank" 
+                                rel="noreferrer">
+                                [바로가기]
+                                </a>
+                            </span>
+                            </li>
+                            <li>
+                            2019년 한국분자세포생물학회 신진과학자상 수상
+                            </li>
+                            <li>
+                            2018년 서경배과학재단팰로우 선정
+                            <span className="achievement-link-banner">
+                                <a href="https://www.suhf.org/investigator/people.do" 
+                                target="_blank" 
+                                rel="noreferrer">
+                                [바로가기]
+                                </a>
+                            </span>
+                            </li>
+                            <li>
+                            2018년 포스코청암팰로우 선정
+                            </li>
+                            <li>
+                            2020년 국가과학난제 AST암전이연구단 선정
+                            <span className="achievement-link-banner">
+                                <a href="https://www.nscn.or.kr/?p=hrw" 
+                                target="_blank" 
+                                rel="noreferrer">
+                                [바로가기]
+                                </a>
+                            </span>
+                            </li>
+                            <li>
+                            2025년 첨단바이오 한-일-호주 글로벌 공동연구센터 지정
+                            <span className="achievement-link-banner">
+                                <a href="https://biochem.yonsei.ac.kr/biochem/board/board03.do?mode=view&articleNo=218660" 
+                                target="_blank" 
+                                rel="noreferrer">
+                                [바로가기]
+                                </a>
+                            </span>
+                            </li>
                         </ul>
                     </section>
                     
