@@ -41,6 +41,12 @@
   /* max-width: 1200px; */
 }
 
+.yellow-box-container.bottom {
+  position: static;
+  width: 100%;
+}
+
+
 .root-container .header {
   align-self: stretch;
   display: flex;
@@ -183,6 +189,13 @@
   gap: 4rem;
 }
 
+.grouped-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; 
+}
+
+
 @media screen and (max-width: 799px) {
   .root-container #content {
     padding: 0 min(2rem, 5%);
@@ -272,9 +285,14 @@
   gap: 1.5rem;
 }
 
-#content-achievements a {
-  text-decoration: underline;
+#content-achievements  {
+  font-weight: bold;
 }
+
+.achievement-link-banner {
+  margin-left: 0.5rem; 
+}
+
 
 .root-container .footer-wrapper {
   display: flex;
@@ -350,3 +368,119 @@
     height: 4rem;
   }
 }
+
+@media screen and (max-width: 799px) {
+  #header-img2 {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  #header-img1 {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .root-container .header {
+    height: 6rem;  
+    padding: 0.5rem; 
+  }
+}
+
+
+@media screen and (max-width: 799px) {
+  .root-container .footer-wrapper {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .root-container #content {
+    gap: 2rem; 
+  }
+}
+
+
+
+@media screen and (max-width: 799px) {
+  .root-container {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 799px) {
+  .root-container .header {
+    height: 6rem;
+    padding: 0.5rem;
+  }
+  
+  .root-container .yellow-box {
+    padding: 10px; 
+  }
+  
+  .root-container .footer-wrapper {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .carousel-container .carousel-button {
+    font-size: 1.5em; 
+    top: 0.2rem;      
+  }
+  
+  .root-container .carousel-container {
+    max-width: 90vw; 
+  }
+}
+
+
+
+
+@media screen and (max-width: 799px) {
+  .root-container .footer-wrapper {
+    margin-top: 4rem; 
+    padding: 1rem;    
+  }
+  
+  .root-container .footer {
+    padding: 1rem 1rem 2rem 1rem;  
+  }
+  
+  .root-container .footer-bar {
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  @media screen and (max-width: 799px) {
+    .root-container .footer-bar img {
+      height: 3rem; 
+    }
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .root-container .footer {
+    gap: 1rem;  
+    padding: 2rem;
+  }
+}
+
+.line-break-mobile {
+  display: inline;
+}
+
+@media screen and (max-width: 799px) {
+  .line-break-mobile {
+    display: block;
+  }
+}
+
+
+

@@ -15,7 +15,8 @@ const Module = () => {
         <div className="root-container">
             <div className="yellow-box-container">
                 <div className="yellow-box">
-                    <strong>Ready to start planning your care?</strong> Call us at (+82)-2-2123-2698  to make an appointment.
+                    <strong>Ready to start planning your care?</strong>
+                    <span className="line-break-mobile">Call us at (+82)-2-2123-2698 to make an appointment.</span>
                 </div>
             </div>
             <div className="body-container">
@@ -57,6 +58,13 @@ const Module = () => {
                     </a>
                 </div>
             </div>
+            <div className="yellow-box-container bottom" >
+            <div className="yellow-box">
+                <strong>Ready to start planning your care?</strong>
+                <span className="line-break-mobile">Call us at (+82)-2-2123-2698 to make an appointment.</span>
+            </div>
+        </div>
+            
         </div>
     </BrowserRouter>);
 };
