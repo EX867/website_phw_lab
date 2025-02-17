@@ -13,7 +13,9 @@ const ProfileCard = ({person}) => {
           {"email" in person ?
             <span className="email-wrapper">
               <CopyLink content={person.email} description="email">
-                <span className="material-icons">mail</span>
+                <a href={`mailto:${person.email}`}>
+                  <span className="material-icons">mail</span>
+                </a>
               </CopyLink>
               <div className="popup">{person.email}</div>
             </span> : ""}

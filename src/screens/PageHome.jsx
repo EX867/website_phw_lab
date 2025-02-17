@@ -104,7 +104,7 @@ const PageHome = () => {
     const slider = React.useRef(null);
     const slider_settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         arrows: false,
         slidesToShow: 1,
@@ -116,7 +116,17 @@ const PageHome = () => {
                 <button className="carousel-button" onClick={() => slider?.current?.slickNext()}><span className="material-icons">chevron_right</span></button>
             </div>
         ),
-          
+        beforeChange: (current, next) => {
+            // 현재 활성 슬라이드에 "slick-current" 클래스가 적용되어 있음.
+            const currentSlideIframe = document.querySelector('.slick-current iframe');
+            if (currentSlideIframe) {
+            // YouTube IFrame API를 통해 stopVideo 명령 전송
+            currentSlideIframe.contentWindow.postMessage(
+                JSON.stringify({ event: 'command', func: 'stopVideo', args: [] }),
+                '*'
+            );
+            }
+          },
       };
 
     return (      
@@ -184,8 +194,9 @@ const PageHome = () => {
                                     <br/><br/><br/>
                                     <div className="carousel-container">
                                         <Slider ref={slider} {...slider_settings}>
-                                            <div className="carousel-item">
-                                                <iframe src="https://www.youtube-nocookie.com/embed/3ihLLwSEJlI?si=d-aQuNS1EjGAY40o&rel=0"
+                                          
+                                            <div className="carousel-item" data-index="0">
+                                                <iframe src="https://www.youtube-nocookie.com/embed/3ihLLwSEJlI?si=d-aQuNS1EjGAY40o&enablejsapi=1&rel=0"
                                                         title="YouTube video player"
                                                         frameborder="0"
                                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -194,8 +205,8 @@ const PageHome = () => {
                                                     2024 경암바이오유스캠프 강연 : 혹부리 영감이 들려주는 암전이의 비밀
                                                 </div>
                                             </div>
-                                            <div className="carousel-item">
-                                                <iframe src="https://www.youtube.com/embed/dUgsEOfYi7E?si=sm83uXGiEWg0uwAQ&rel=0"
+                                            <div className="carousel-item" data-index="1">
+                                                <iframe src="https://www.youtube.com/embed/dUgsEOfYi7E?si=sm83uXGiEWg0uwAQ&enablejsapi=1&rel=0"
                                                         title="YouTube video player"
                                                         frameborder="0"
                                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -205,7 +216,7 @@ const PageHome = () => {
                                                 </div>
                                             </div>
 
-                                            <div className="carousel-item">
+                                            <div className="carousel-item" data-index="2">
                                                 <img alt="people"
                                                     src="./assets/images/home_lab.jpg"/>
                                                 <div className="pl-4 pt-4 pr-4">
@@ -213,8 +224,7 @@ const PageHome = () => {
                                                 </div>
                                             </div>
 
-
-                                            <div className="carousel-item">
+                                            <div className="carousel-item" data-index="3">
                                                 <img alt="people"
                                                     src="./assets/images/home_lab_4.jpeg"/>
                                                 <div className="pl-4 pt-4 pr-4">
@@ -222,7 +232,7 @@ const PageHome = () => {
                                                 </div>
                                             </div>
 
-                                            <div className="carousel-item">
+                                            <div className="carousel-item" data-index="4">
                                                 <img alt="people"
                                                     src="./assets/images/home_lab_5.jpeg"/>
                                                 <div className="pl-4 pt-4 pr-4">
@@ -230,7 +240,7 @@ const PageHome = () => {
                                                 </div>
                                             </div>
 
-                                            <div className="carousel-item">
+                                            <div className="carousel-item" data-index="5">
                                                 <img alt="people"
                                                     src="./assets/images/home_lab_6.jpeg"/>
                                                 <div className="pl-4 pt-4 pr-4">
@@ -238,7 +248,7 @@ const PageHome = () => {
                                                 </div>
                                             </div>
 
-                                            <div className="carousel-item">
+                                            <div className="carousel-item" data-index="6">
                                                 <img alt="people"
                                                     src="./assets/images/home_cgv.jpg"/>
                                                 <div className="pl-4 pt-4 pr-4">
@@ -246,8 +256,8 @@ const PageHome = () => {
                                                 </div>
                                             </div>
 
-                                            <div className="carousel-item">
-                                                <iframe src="https://www.youtube.com/embed/7t_orl4pXgM?si=2aQUn3SW3-tIgw9b&rel=0"
+                                            <div className="carousel-item" data-index="7">
+                                                <iframe src="https://www.youtube.com/embed/7t_orl4pXgM?si=2aQUn3SW3-tIgw9b&enablejsapi=1&rel=0"
                                                         title="YouTube video player"
                                                         frameborder="0"
                                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -302,13 +312,13 @@ const PageHome = () => {
                     <section id="content-people">
                         <h2>People</h2>
 
-                        <div className="content-horizontal-flex gap-6">
+                        <div className="content-horizontal-flex gap-6 items-center">
                             <img className="size-48 max-w-[95%]"
                                 alt="professor Hyun Woo Park"
                                 src="./assets/images/professor/Hyun Woo Park.jpg"/>
 
                             <div>
-                                <h2 className="text-text_black">Hyun Woo (Henry) Park, PhD</h2>
+                                <h2 className="text-text_black  -mt-1">Hyun Woo (Henry) Park, PhD</h2>
                                 <div className="text-small italic -mt-4">Associate Professor, Department of Biochemistry, Yonsei University</div>
                                 <ul className="leading-[140%]">
                                     <li>Cancer biologist Hyun Woo (Henry) Park investigates cancer cell plasticity in metastatic cascade and anti-metastatic drug development</li>
@@ -339,6 +349,17 @@ const PageHome = () => {
                       <h2>Achievements</h2>
                         <ul>
                             <li>
+                            2025년 첨단바이오 한-일-호주 글로벌 공동연구센터 지정
+                            <span className="achievement-link-banner">
+                                <a href="https://biochem.yonsei.ac.kr/biochem/board/board03.do?mode=view&articleNo=218660" 
+                                target="_blank" 
+                                rel="noreferrer">
+                                [바로가기]
+                                </a>
+                            </span>
+                            </li>
+                            <li>
+
                             2024년 국가연구개발 우수성과 100선 선정 
                             <span className="achievement-link-banner">
                                 <a href="https://www.kistep.re.kr/board.es?mid=a10202060400&bid=0072&act=view&list_no=93966" 
@@ -350,16 +371,24 @@ const PageHome = () => {
                             </li>
                             <li>
                             2024년 한국생화학분자생물학회 사석상 수상
-                            {/* 링크가 필요 없으면 그대로 두세요. */}
                             </li>
                             <li>
                             2023년 미래융합전략센터 FSCS 융합연구 우수사례 선정
-                            {/* 링크가 있다면 동일한 방식으로 분리합니다. */}
                             </li>
                             <li>
                             2023년 과학기술정보통신부 융합연구개발 활성화 유공자 장관 표창 
                             <span className="achievement-link-banner">
                                 <a href="https://www.yonsei.ac.kr/_custom/yonsei/_app/ocx/news/app.jsp?mode=view&ar_seq=20240122132146253062&sr_volume=0&list_mode=list&sr_site=S&pager.offset=0&sr_cates=20160305000124325067" 
+                                target="_blank" 
+                                rel="noreferrer">
+                                [바로가기]
+                                </a>
+                            </span>
+                            </li>
+                            <li>
+                            2020년 국가과학난제 AST암전이연구단 선정
+                            <span className="achievement-link-banner">
+                                <a href="https://www.nscn.or.kr/?p=hrw" 
                                 target="_blank" 
                                 rel="noreferrer">
                                 [바로가기]
@@ -382,26 +411,8 @@ const PageHome = () => {
                             <li>
                             2018년 포스코청암팰로우 선정
                             </li>
-                            <li>
-                            2020년 국가과학난제 AST암전이연구단 선정
-                            <span className="achievement-link-banner">
-                                <a href="https://www.nscn.or.kr/?p=hrw" 
-                                target="_blank" 
-                                rel="noreferrer">
-                                [바로가기]
-                                </a>
-                            </span>
-                            </li>
-                            <li>
-                            2025년 첨단바이오 한-일-호주 글로벌 공동연구센터 지정
-                            <span className="achievement-link-banner">
-                                <a href="https://biochem.yonsei.ac.kr/biochem/board/board03.do?mode=view&articleNo=218660" 
-                                target="_blank" 
-                                rel="noreferrer">
-                                [바로가기]
-                                </a>
-                            </span>
-                            </li>
+                           
+                            
                         </ul>
                     </section>
                     
