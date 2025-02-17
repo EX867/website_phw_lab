@@ -87,7 +87,7 @@
 
 @media screen and (min-width: 800px) {
   .root-container .carousel-container {
-    width: min(36vw, calc(1200px * 0.78 - 18rem));
+     width:  min(50vw, calc(1200px * 0.90 - 18rem)); 
   }
 }
 
@@ -249,8 +249,8 @@
   align-self: flex-start;
 
   padding: 2rem 0.5rem;
-  border-top: 2px solid rgb(120, 226, 218);
-  border-bottom: 2px solid rgb(120, 226, 218);
+  border-top: 4px solid rgb(0, 49, 116, 1);
+  border-bottom: 4px solid rgb(0, 49, 116, 1);
 
   font-size: theme("fontSize.small");
   line-height: normal;
@@ -302,7 +302,7 @@
 
   background-color: var(--color-yonsei);
   width: 100%;
-  margin-top: 22rem; /* 4rem */
+  margin-top: 8rem; /* 4rem */
 }
 
 .root-container .footer {
@@ -472,15 +472,30 @@
   }
 }
 
-.line-break-mobile {
-  display: inline;
-}
 
+
+/* 모바일 기본: 화면 폭이 작을 때 (예: max-width: 799px) */
+/* 모바일에서는 줄바꿈을 위해 block으로 표시 */
 @media screen and (max-width: 799px) {
   .line-break-mobile {
     display: block;
   }
 }
+
+/* PC 화면: 화면 폭이 800px 이상일 때 */
+/* PC에서는 줄바꿈 없이 inline-block으로 표시하면서 좌측 여백으로 띄어쓰기 적용 */
+@media screen and (min-width: 800px) {
+  .line-break-mobile {
+    display: inline-block;
+    margin-left: 10px; /* 원하는 띄어쓰기 크기 */
+  }
+}
+
+.professor-small div {
+  white-space: nowrap;
+}
+
+
 
 
 
