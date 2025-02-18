@@ -87,7 +87,7 @@
 
 @media screen and (min-width: 800px) {
   .root-container .carousel-container {
-   width: min(38vw, calc(1200px * 0.82 - 18rem));
+   width: min(44vw, calc(1200px * 0.80 - 18rem));
   }
 }
 
@@ -498,35 +498,121 @@
 
 
 
-/* dmz 주석 */
-.root-container section {
+
+ /* .root-container section {
   border: 1px solid #ccc;
 }
 
 .carousel-container {
   border: 2px solid #ccc; 
-}
+}   */
 
 #content-media {
    margin-top: -2rem; 
 }
 
 
-/* dmz 지울것 */
-/* CSS 변수 선언 및 초기값 설정 */
-:root {
-  --content-width: 95%;
-}
-#content-news {
-  width: var(--content-width);
+
+
+#content-collaborators .collaborators-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  gap: 35px;
+  /* margin-top: -35px; */
 }
 
-#content-publication {
-  width: var(--content-width);
+
+
+#content-collaborators .collaborators-grid .collaborator-item {
+  width: 100px; /* 기본 너비 감소 */
+  height: 100px;
 }
 
-.slider-container2 {
-  display: flex; /* 가로 방향으로 배치 */
-  align-items: center; /* 세로 가운데 정렬 */
-  gap: 10px; /* 간격 조절 */
+#content-collaborators .collaborators-grid .collaborator-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* 태블릿 크기 */
+@media (max-width: 1024px) {
+  #content-collaborators .collaborators-grid .collaborator-item {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #content-collaborators .collaborators-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    gap: 0px;
+  }
+}
+
+/* 작은 태블릿 */
+@media (max-width: 768px) {
+  #content-collaborators .collaborators-grid .collaborator-item {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  #content-collaborators .collaborators-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+  }
+}
+
+/* 모바일 */
+@media (max-width: 480px) {
+  #content-collaborators .collaborators-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  #content-collaborators .collaborators-grid .collaborator-item {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+
+/* 매우 작은 모바일 */
+@media (max-width: 360px) {
+#content-collaborators .collaborators-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+}
+}
+
+@media (max-width: 360px) {
+  #content-collaborators .collaborators-grid .collaborator-item {
+    width: 50px;
+    height: 50px;
+    gap: 5px;
+  }
 }
