@@ -65,7 +65,7 @@
 }
 
 .root-container .header #header-img2{
-  height: 6.3rem;
+  height: 7.8rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -498,17 +498,35 @@
 
 
 
-
-/* .root-container section {
+/* dmz 주석 */
+.root-container section {
   border: 1px solid #ccc;
 }
 
 .carousel-container {
   border: 2px solid #ccc; 
-} */
+}
 
 #content-media {
    margin-top: -2rem; 
 }
 
 
+/* dmz 지울것 */
+/* CSS 변수 선언 및 초기값 설정 */
+:root {
+  --content-width: 95%;
+}
+#content-news {
+  width: var(--content-width);
+}
+
+#content-publication {
+  width: var(--content-width);
+}
+
+.slider-container2 {
+  display: flex; /* 가로 방향으로 배치 */
+  align-items: center; /* 세로 가운데 정렬 */
+  gap: 10px; /* 간격 조절 */
+}
