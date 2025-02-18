@@ -129,6 +129,24 @@ const PageHome = () => {
           },
       };
 
+
+      //dmz 지울것
+      useEffect(() => {
+        const slider = document.getElementById('width-slider');
+        const root = document.documentElement;
+        const widthValue = document.getElementById('width-value');
+    
+        if (slider && root && widthValue) { // Check if elements exist
+          slider.addEventListener('input', () => {
+            const currentWidth = slider.value;
+            root.style.setProperty('--content-width', currentWidth + '%');
+            widthValue.textContent = currentWidth + '%';
+          });
+    
+          widthValue.textContent = slider.value + '%'; // Initial value
+        }
+      }, []); // Emp
+      
     return (      
         <div className="flex flex-col items-center">
             <MobileNavBar>
@@ -300,6 +318,11 @@ const PageHome = () => {
 
                             <ContentButton label="View All Featured News" href="/news"/>
                         </section>
+                    </div>
+                    {/* dmz 지울것 */}
+                    <div class="slider-container2">
+                    <input type="range" id="width-slider" min="90" max="100" defaultValue="95" />
+                    <span id="width-value">95%</span>
                     </div>
                     <section id="content-publication">
                         <h2>Publication Highlights</h2>
