@@ -87,7 +87,7 @@
 
 @media screen and (min-width: 800px) {
   .root-container .carousel-container {
-     width:  min(50vw, calc(1200px * 0.90 - 18rem)); 
+   width: min(38vw, calc(1200px * 0.82 - 18rem));
   }
 }
 
@@ -497,5 +497,18 @@
 
 
 
+
+
+/* .root-container section {
+  border: 1px solid #ccc;
+}
+
+.carousel-container {
+  border: 2px solid #ccc; 
+} */
+
+#content-media {
+   margin-top: -2rem; 
+}
 
 

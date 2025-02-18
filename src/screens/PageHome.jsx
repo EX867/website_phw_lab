@@ -192,7 +192,26 @@ const PageHome = () => {
                                         <li>Next generation anti-cancer drug development </li>
                                     </ul>
                                     <br/><br/><br/>
-                                    <div className="carousel-container">
+                                </div>
+
+                                <div className="professor-small">
+                                    <img className="w-48 pb-2"
+                                        alt="professor Hyun Woo Park"
+                                        src="./assets/images/professor/Hyun Woo Park.jpg"/>
+
+                                    <div className="text-yonsei font-bold leading-normal">
+                                        Hyun Woo (Henry) Park, PhD
+                                    </div>
+                                    <div>
+                                        Associate Professor<br/>
+                                        Dept. Biochemistry,<br/>
+                                        Yonsei University
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="content-media">
+                           <div className="carousel-container">
                                         <Slider ref={slider} {...slider_settings}>
                                           
                                             <div className="carousel-item" data-index="0">
@@ -269,24 +288,7 @@ const PageHome = () => {
                                         
                                         </Slider>
                                         <br/><br/>
-                                    </div>
-                                </div>
-
-                                <div className="professor-small">
-                                    <img className="w-48 pb-2"
-                                        alt="professor Hyun Woo Park"
-                                        src="./assets/images/professor/Hyun Woo Park.jpg"/>
-
-                                    <div className="text-yonsei font-bold leading-normal">
-                                        Hyun Woo (Henry) Park, PhD
-                                    </div>
-                                    <div>
-                                        Associate Professor<br/>
-                                        Dept. Biochemistry,<br/>
-                                        Yonsei University
-                                    </div>
-                                </div>
-                            </div>
+                           </div>
                         </section>
 
                         <section id="content-news">
