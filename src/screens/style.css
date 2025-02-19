@@ -517,6 +517,16 @@
   padding: 10px; 
   border-radius: 8px; 
 } */
+.carousel-item[data-index="8"] {
+  cursor: pointer; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.carousel-item[data-index="8"]:hover {
+  transform: scale(1.05); /* 살짝 확대 */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
 
 
 #content-collaborators .collaborators-grid {
