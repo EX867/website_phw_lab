@@ -286,6 +286,17 @@ const PageHome = () => {
                                     </div>
 
                                     <div className="carousel-item" data-index="2">
+                                        <iframe src="https://www.youtube.com/embed/1OF3CpMPFlI?enablejsapi=1&rel=0"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
+                                        <div className="pl-4 pt-4 pr-4">
+                                            AST 패러다임의 발견
+                                        </div>
+                                    </div>
+
+                                    <div className="carousel-item" data-index="3">
                                         <img alt="people"
                                             src="./assets/images/home_lab.jpg" />
                                         <div className="pl-4 pt-4 pr-4">
@@ -293,7 +304,7 @@ const PageHome = () => {
                                         </div>
                                     </div>
 
-                                    <div className="carousel-item" data-index="3">
+                                    <div className="carousel-item" data-index="4">
                                         <img alt="people"
                                             src="./assets/images/home_lab_4.jpeg" />
                                         <div className="pl-4 pt-4 pr-4">
@@ -301,7 +312,7 @@ const PageHome = () => {
                                         </div>
                                     </div>
 
-                                    <div className="carousel-item" data-index="4">
+                                    <div className="carousel-item" data-index="5">
                                         <img alt="people"
                                             src="./assets/images/home_lab_5.jpeg" />
                                         <div className="pl-4 pt-4 pr-4">
@@ -309,7 +320,7 @@ const PageHome = () => {
                                         </div>
                                     </div>
 
-                                    <div className="carousel-item" data-index="5">
+                                    <div className="carousel-item" data-index="6">
                                         <img alt="people"
                                             src="./assets/images/home_lab_6.jpeg" />
                                         <div className="pl-4 pt-4 pr-4">
@@ -317,7 +328,7 @@ const PageHome = () => {
                                         </div>
                                     </div>
 
-                                    <div className="carousel-item" data-index="6">
+                                    <div className="carousel-item" data-index="7">
                                         <img alt="people"
                                             src="./assets/images/home_cgv.jpg" />
                                         <div className="pl-4 pt-4 pr-4">
@@ -325,7 +336,29 @@ const PageHome = () => {
                                         </div>
                                     </div>
 
-                                    <div className="carousel-item" data-index="7">
+                                    <div className="carousel-item" data-index="8"
+                                        onClick={() => window.open('./assets/pdfs/comic.pdf#page=1', '_blank')}>
+                                        <img alt="people"
+                                            src="./assets/images/illustration.png" />
+                                        <div className="pl-4 pt-4 pr-4">
+                                            김명호 작가님이 그려주신 암전이 연구의 역사와 AST 패러다임의 발견
+
+                                        </div>
+                                    </div>
+                                    {/* 
+                                    <div className="carousel-item" data-index="6"
+                                        onClick={() => window.open('./assets/pdfs/comic.pdf#page=8', '_blank')}>
+                                        <img alt="people"
+                                            // style={{ width: "100%", height: "100%", objectFit: "cover", border: "1px solid red" }}
+
+                                            src="./assets/images/illustration_2.png" />
+                                        <div className="pl-4 pt-4 pr-4">
+                                            만화2 8페이졸
+                                        </div>
+                                    </div> */}
+
+
+                                    <div className="carousel-item" data-index="9">
                                         <iframe src="https://www.youtube.com/embed/7t_orl4pXgM?si=2aQUn3SW3-tIgw9b&enablejsapi=1&rel=0"
                                             title="YouTube video player"
                                             frameborder="0"
@@ -483,7 +516,7 @@ const PageHome = () => {
                         <h2>Related Links</h2>
                         <div className="collaborators-grid" >
                             {collaborators.map((collaborator, index) => (
-                                <div className="collaborator-item" key={index}>
+                                <div className={`collaborator-item ${index === 4 ? "large-image" : ""} ${index === 5 ? "small-image" : ""}`} key={index}>
                                     <a href={collaborator.href} target="_blank" rel="noopener noreferrer">
                                         <img
                                             src={collaborator.src}
