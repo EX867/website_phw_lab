@@ -140,37 +140,37 @@ const PageHome = () => {
     const collaborators = [
         {
             href: "https://biochem.yonsei.ac.kr/biochem/index.do",
-            src: "./assets/images//collaborators/yonsei-biochemistry.png",
+            src: "./assets/images//collaborators/yonsei-biochemistry.jpeg",
             alt: "Yonsei University, Department of Biochemistry logo",
             id: "link-yonsei-biochemistry"
         },
         {
             href: "https://www.uke.de/english/departments-institutes/institutes/tumor-biology/european-liquid-biopsy-society-elbs/index.html",
-            src: "./assets/images//collaborators/uke-tumor-biology.png",
+            src: "./assets/images//collaborators/uke-tumor-biology.jpeg",
             alt: "University Medical Center Hamburg-Eppendorf, Tumor Biology Center logo",
             id: "link-uke-tumor-biology"
         },
         {
             href: "https://metastasis-research.org",
-            src: "./assets/images//collaborators/metastasis-research.png",
+            src: "./assets/images//collaborators/metastasis-research.jpeg",
             alt: "Metastasis Research Society logo",
             id: "link-metastasis-research"
         },
         {
             href: "https://www.ozmrs.com",
-            src: "./assets/images//collaborators/ozmrs.png",
+            src: "./assets/images//collaborators/ozmrs.jpeg",
             alt: "The Australian Society for Medical Research logo",
             id: "link-ozmrs"
         },
         {
             href: "https://www.ncc.go.jp/en/ncce/about/index.html",
-            src: "./assets/images//collaborators/ncc-japan.png",
+            src: "./assets/images//collaborators/ncc-japan.jpeg",
             alt: "National Cancer Center, Japan logo",
             id: "link-ncc-japan"
         },
         {
             href: "https://www.cancergrandchallenges.org",
-            src: "./assets/images/collaborators/cancer-grand-challenges.png",
+            src: "./assets/images/collaborators/cancer-grand-challenges.jpeg",
             alt: "Cancer Grand Challenges logo",
             id: "link-cancer-grand-challenges"
         }
@@ -184,6 +184,8 @@ const PageHome = () => {
                 <VerticalNavButton label="Publication Highlights" src="#content-publication" />
                 <VerticalNavButton label="People" src="#content-people" />
                 <VerticalNavButton label="Open Positions" src="#content-open-positions" />
+                <VerticalNavButton label="Related Links" src="#content-collaborators" />
+
             </MobileNavBar>
 
             <div className="main-image">
@@ -207,6 +209,7 @@ const PageHome = () => {
                         <FollowingNavButton label="People" src="#content-people" />
                         <FollowingNavButton label="Achievements" src="#content-achievements" />
                         <FollowingNavButton label="Open Positions" src="#content-open-positions" />
+                        <FollowingNavButton label="Related Links" src="#content-collaborators" />
                     </div>
                 </div>
 
