@@ -116,10 +116,15 @@ const PageHome = () => {
         arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
+
+        swipe: true,           // 터치/스와이프 활성화 (기본값: true)
+        touchMove: true,       // 터치 이동 활성화 (기본값: true)
+        touchThreshold: 5,     // 스와이프 감도 (기본값: 5)
+        swipeToSlide: true,    // 슬라이드당 스와이프 활성화
         appendDots: dots => (
             <div>
                 <button className="carousel-button" onClick={() => slider?.current?.slickPrev()}><span className="material-icons">chevron_left</span></button>
-                <ul className="inline" style={{ margin: "0", padding: "0 0.98rem" }}> {dots} </ul>
+                <ul className="inline carousel-dots-container" > {dots} </ul>
                 <button className="carousel-button" onClick={() => slider?.current?.slickNext()}><span className="material-icons">chevron_right</span></button>
             </div>
         ),
