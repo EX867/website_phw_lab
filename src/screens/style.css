@@ -256,6 +256,13 @@
   line-height: normal;
 }
 
+@media (max-width: 767px) {
+  .root-container .professor-small {
+    margin-bottom: 2rem; 
+  }
+}
+
+
 @media screen and (max-width: 799px) {
   .professor-small img {
     max-width: 95%;
@@ -631,3 +638,24 @@
   }
 }
 
+
+.carousel-dots-container {
+  margin: 0;
+  padding: 0 0.03rem; /* Mobile padding */
+  
+}
+
+@media (max-width: 767px) {
+  .carousel-dots-container li {
+    display: inline-block !important;
+    width: auto !important;
+    margin: 0 2px !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .carousel-dots-container {
+    padding: 0 0.98rem; /* PC padding */
+  }
+}
