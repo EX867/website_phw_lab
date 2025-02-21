@@ -659,3 +659,13 @@
     padding: 0 0.98rem; /* PC padding */
   }
 }
+
+
+
+
+/* 모바일에서만 적용 */
+@media (max-width: 768px) {
+  .carousel-item iframe {
+    pointer-events: none !important;
+  }
+}
