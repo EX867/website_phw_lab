@@ -109,6 +109,16 @@ const PageHome = () => {
     }, []);
 
     const slider = React.useRef(null);
+
+    // touchStart와 touchEnd 이벤트 핸들러 추가
+    const handleTouchStart = (e) => {
+        e.stopPropagation();
+    };
+
+    const handleTouchEnd = (e) => {
+        e.stopPropagation();
+    };
+
     const slider_settings = {
         dots: true,
         infinite: true,
@@ -118,9 +128,23 @@ const PageHome = () => {
         slidesToScroll: 1,
 
         swipe: true,           // 터치/스와이프 활성화 (기본값: true)
+        swipeToSlide: true,    // 슬라이드당 스와이프 활성화
         touchMove: true,       // 터치 이동 활성화 (기본값: true)
         touchThreshold: 5,     // 스와이프 감도 (기본값: 5)
-        swipeToSlide: true,    // 슬라이드당 스와이프 활성화
+        draggable: true,
+        accessibility: true,
+        // 모바일 반응형 설정 추가
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    swipe: true,
+                    swipeToSlide: true,
+                    touchMove: true,
+                    draggable: true
+                }
+            }
+        ],
         appendDots: dots => (
             <div>
                 <button className="carousel-button" onClick={() => slider?.current?.slickPrev()}><span className="material-icons">chevron_left</span></button>
@@ -266,7 +290,10 @@ const PageHome = () => {
                             </div>
                         </section>
                         <section id="content-media">
-                            <div className="carousel-container">
+                            <div className="carousel-container"
+                                onTouchStart={handleTouchStart}
+                                onTouchEnd={handleTouchEnd}
+                            >
                                 <Slider ref={slider} {...slider_settings}>
 
                                     <div className="carousel-item" data-index="0">
