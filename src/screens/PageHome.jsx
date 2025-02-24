@@ -285,6 +285,15 @@ const PageHome = () => {
                                         Associate Professor<br />
                                         Dept. Biochemistry,<br />
                                         Yonsei University
+                                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+                                            <a href="https://x.com/_HyunWoo_PARK" target="_blank" rel="noopener noreferrer">
+                                                <img
+                                                    src="./assets/images/professor/iconX.jpg"
+                                                    alt="X 계정"
+                                                    style={{ width: '40px', height: '40px' }}
+                                                />
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
